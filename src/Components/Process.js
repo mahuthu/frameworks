@@ -1,71 +1,72 @@
 import React from "react";
-const process = [
+
+const processSteps = [
   {
-    logo: <i className="fas fa-magic    "></i>,
+    logo: <i className="fas fa-magic"></i>,
     id: "1",
-    h1: "Get Packing Quotes",
-    p: "Choose from 40+ types of packaging and customize your specs to get a quote.",
+    title: "Requirement Gathering",
+    description: "Understand client needs, goals, and preferences for the website.",
   },
-  {
-    logo: <i className="fas fa-box    "></i>,
-    id: "2",
-    h1: "Purchase a sample (optional)",
-    p: "Get a sample of your packaging to test size and quality before starting a bulk order.",
-  },
+
   {
     logo: <i className="fa fa-dollar" aria-hidden="true"></i>,
     id: "3",
-    h1: "Place your order",
-    p: "Choose your preferred shipping method and place your order on our platform.",
+    title: "Place your order",
+    description:
+      "Choose your preferred design and place your order.",
+  },
+
+
+  {
+    logo: <i className="fas fa-tools"></i>,
+    id: "2",
+    title: "Design and Development",
+    description: "Create wireframes, design mockups, and develop the website with interactive features.",
+  },
+
+  {
+    logo: <i className="fas fa-check-circle"></i>,
+    id: "3",
+    title: "Testing and QA",
+    description: "Perform thorough testing to ensure functionality, usability, and compatibility across devices.",
   },
   {
-    logo: <i className="fa fa-mars-stroke-h" aria-hidden="true"></i>,
+    logo: <i className="fas fa-cloud-upload-alt"></i>,
     id: "4",
-    h1: "Upload artwork",
-    p: "Add your artwork to the dieline template we'll create for you upon placing your order.",
+    title: "Deployment",
+    description: "Deploy the website on a hosting server and configure domain settings.",
   },
+
+  
+
   {
-    logo: <i className="fas fa-business-time    "></i>,
+    logo: <i className="fas fa-sync-alt"></i>,
     id: "5",
-    h1: "Start production",
-    p: "Once your artwork is approved, we'll start production, which typically takes 12-16 days.",
-  },
-  {
-    logo: <i className="fa fa-plane" aria-hidden="true"></i>,
-    id: "6",
-    h1: "Ship packaging",
-    p: "After passing quality assurance, we'll ship your packaging to your specified location(s).",
+    title: "Maintenance and Updates",
+    description: "Regularly update content, software, and security measures to keep the website optimal.",
   },
 ];
 
-// eslint-disable-next-line array-callback-return
 const Process = () => {
-  const processDisplay = process.map((display) => (
-    <div className="col-lg-4" key={Math.random()*100}>
-        <h1>
-            {display.logo}
-        </h1>
-      <h3>
-        {display.id} {display.h1}
-      </h3>
-      <p>{display.p}</p>
+  const processDisplay = processSteps.map((step) => (
+    <div className="col-lg-4" key={step.id}>
+      <h1>{step.logo}</h1>
+      <h3>{step.title}</h3>
+      <p>{step.description}</p>
     </div>
   ));
 
   return (
     <section>
-        <div className="container-fluid py-5" style={{backgroundColor: "#F5F9FC"}}>
-      <div className="container ">
-        <div className="row text-center">
-          <div className="col-12">
-            <h1>Our Process</h1>
-            <p>
-              We've broken down the packaging order process so you know exactly
-              what to expect.
-            </p>
+      <div className="container-fluid py-5" style={{ backgroundColor: "#F5F9FC" }}>
+        <div className="container">
+          <div className="row text-center">
+            <div className="col-12">
+              <h1>Our Process</h1>
+              <p>We've broken down the order process so you know exactly what to expect.</p>
+            </div>
+            {processDisplay}
           </div>
-          {processDisplay}
-        </div>
         </div>
       </div>
     </section>

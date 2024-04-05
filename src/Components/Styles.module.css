@@ -2,12 +2,19 @@ section {
   color: #32325c;
 }
 .echo {
-  background: url("../Dataset/forest.jpg") no-repeat center;
+  background: #32325c no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  color: white;
+  color: #fff;
   padding: 10rem 0;
+  opacity: 0.9;
+   /* Adjust the opacity value as needed */
+
+  
 }
+
+
+
 footer{
     background-color: #32325c;
 }

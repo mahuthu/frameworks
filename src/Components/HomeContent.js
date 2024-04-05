@@ -8,15 +8,16 @@ import PackingSolutions from "./PackingSolutions";
 import Process from "./Process";
 import StartJourney from "./StartJourney";
 import Introduction from "./Introduction";
+import Projects from "./Projects/Projects"
+import Services from "./Services/Services"
 const HomeContent = () => {
   return (
     <>
           <Introduction />
-          <PackingSolutions />
-          <CustomBoxes />
-          <Process />
           <EchoFriendly />
-          <PackagingGrid />
+          <Services />
+          <Projects/>
+          <Process />
           <CustomerReviews />
           <FrequentlyAskedQuestions />
           <StartJourney />

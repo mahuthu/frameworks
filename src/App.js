@@ -12,6 +12,9 @@ import {
   Routes,
 } from "react-router-dom";
 import ExplorePackaging from "./Components/Custom Packaging Section/ExplorePackaging";
+import Pricing from "./Components/Pricing";
+import Contact from "./Components/Contacts/Contact"
+
 function App() {
   return (
     <div className="App">
@@ -19,8 +22,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomeContent />} />
-          <Route  path="custom-packaging" element={<ExplorePackaging />}/>
         </Routes>
+        <Pricing/>
+        <Contact/>
         <Footer />
       </BrowserRouter>
     </div>

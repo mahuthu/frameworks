@@ -6,121 +6,48 @@ const Footer = () => {
     <footer>
       <div className="container-fluid">
         <div className={"container " + classes.footer}>
-          <div className="row ">
+          <div className="row">
             <div className="col-lg-3 col-md-3 col-12">
               <ul>
-                <h5>Company</h5>
+                <h5>Contact Information</h5>
+                <li>Savannah Builders</li>
+                <li> Kahawa Sukari, Thika Road,</li>
+                <li>Nairobi, Kenya</li>
+                <li>Phone1: 0793207217</li>
+                <li>Phone2: 0726258462</li>
+                <li>Email: SavannahBuilders@gmail.com</li>
+              </ul>
+            </div>
+
+            <div className="col-lg-3 col-md-3 col-12">
+              <ul>
+                <h5>Quick Links</h5>
                 <li>
-                  <NavLink to="/">about us</NavLink>
+                  <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">Sustainability</NavLink>
+                  <NavLink to="/about">About us</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">Showcase</NavLink>
+                  <NavLink to="/portfolio">Portfolio</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">Partners</NavLink>
+                  <NavLink to="/blog">Blog</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/">Blog</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Contact us</NavLink>
+                  <NavLink to="/contact">Contact us</NavLink>
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-3 col-12">
               <ul>
-                <h5>Discover Packaging</h5>
-                <li>
-                  <NavLink to="/">Custom Printed Boxes</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Luxury Packaging</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Gift Box Packaging</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Eco-Friendly Packaging</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Kraft Packaging</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Custom Packaging Australia</NavLink>
-                </li>
-              </ul>
-            </div>
-
-            <div className="col-lg-3 col-md-3 col-12">
-              <ul>
-                <h5>Packaging Products</h5>
-                <li>
-                  <NavLink to="/">All Products</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Mailer Boxes</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Folding Carton Boxes</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Custom Box Inserts</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Custom Box Dividers</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Display Boxes</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Tray and Sleeve Boxes</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Packaging Sleeves</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Packaging Stickers</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Foldable Lid and Base Boxes</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Paper Bags</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Cardboard Tubes</NavLink>
-                </li>
-              </ul>
-            </div>
-
-            <div className="col-lg-3 col-md-3 col-12">
-              <ul>
-                <h5>Resources</h5>
-                <li>
-                  <NavLink to="/">Get Samples</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Design Services</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Packaging Cost Estimator</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Dieline Design Tips</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Download Packaging Dielines</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">PackMojo Platform</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/">Help Center</NavLink>
-                </li>
+                <h5>Our Services</h5>
+                <li>Web Design and Development</li>
+                <li>Graphic Design</li>
+                <li>E-commerce Solutions</li>
+                <li>Brand Identity Design</li>
+                <li>SEO and Digital Marketing</li>
               </ul>
             </div>
           </div>
@@ -132,7 +59,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-6 col-12">
               <p>
-                &copy; 2022 PackMojo Limited, All Rights Reserved. | Privacy
+                &copy; 2024 Savannah Builders, All Rights Reserved. | Privacy
                 Policy | Terms
               </p>
             </div>

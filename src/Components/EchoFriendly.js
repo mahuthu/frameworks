@@ -7,12 +7,10 @@ const EchoFriendly = () => {
       <div className="container">
         <div className="row text-center">
           <div className="col-12">
-            <h1> Eco-friendly Packaging Solutions </h1>
+            <h1> About Us </h1>
             <p>
-              We're committed to offsetting our world's carbon footprint,
-              contributing to reforestation, and sustainability. From tree
-              planting to eco-friendly ink and materials, learn more about our
-               sustainable packaging practices here . 
+              Welcome to Savannah Builders, a place where digital design innovation and experience converge. As a leading web design business in Kenya, we take great satisfaction in offering expert web design services .<br/>
+              We understand that a website acts as the digital face of your business and is a lot more than just an online presence. Every project we work on is a perfect combination of outstanding functionality and eye-catching design.
             </p>
           </div>
         </div>

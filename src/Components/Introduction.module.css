@@ -1,5 +1,6 @@
 .containerfluid{
-    background-color: #D8E7D8;
+    background-image: url("../Dataset/nairobi2.jpg");
+    background-size: cover;
     color: #32325C;
     height: 41rem;
 }
@@ -23,3 +24,4 @@
         margin:0 auto;
     }
 }
+

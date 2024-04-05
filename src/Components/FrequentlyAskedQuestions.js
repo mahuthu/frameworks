@@ -10,87 +10,33 @@ const FrequentlyAskedQuestions = () => {
               <h1>Frequently Asked Questions</h1>
             </div>
             <div className="col-lg-6 col-12 mt-2">
-              <h5>
-                {" "}
-                <i
-                  className="fa-solid fa-lightbulb"
-                  style={{ color: "#FAB005" }}
-                ></i>{" "}
-                Where is Your Packaging Produced?{" "}
-              </h5>
-              <p className="ms-4">
-                Our packaging is produced with our vetted network of suppliers
-                in China.
-              </p>
-              <h5>
-                {" "}
-                <i
-                  className="fa-solid fa-lightbulb"
-                  style={{ color: "#FAB005" }}
-                ></i>{" "}
-                How long does production take?{" "}
-              </h5>
-              <p className="ms-4">
-                Production typically takes 12-16 days, and 16-21 days for larger
-                volume orders.
-              </p>
-              <h5>
-                {" "}
-                <i
-                  className="fa-solid fa-lightbulb"
-                  style={{ color: "#FAB005" }}
-                ></i>{" "}
-                How long does Shipping take?{" "}
-              </h5>
-              <p className="ms-4">
-                Air freight options range from 7-21 days, while ocean freight
-                options range from 26-71 days. If you need some packaging
-                expedited earlier, consider splitting your shipment between air
-                and ocean!
-              </p>
+              <Question
+                question="How long does it take to build a website?"
+                answer="The time to build a website can vary significantly based on the complexity of the project. Typically, a basic website can be completed in a few weeks, while more complex websites with custom features may take several months."
+              />
+              <Question
+                question="What information do you need from me to start?"
+                answer="To get started, we'll need information about your business, your target audience, your goals for the website, examples of websites you like, content such as text and images, and any specific features or functionality you require."
+              />
+              <Question
+                question="Can you help with content creation and copywriting?"
+                answer="Yes, we offer content creation and copywriting services to ensure your website has high-quality, engaging content that resonates with your audience and aligns with your brand."
+              />
             </div>
 
             <div className="col-lg-6 col-12 mt-2">
-              <h5>
-                {" "}
-                <i
-                  className="fa-solid fa-lightbulb"
-                  style={{ color: "#FAB005" }}
-                ></i>{" "}
-                What is your minimum order quantity (MOQ)?{" "}
-              </h5>
-              <p className="ms-4">
-                It depends! Mailer boxes and folding carton boxes start with an
-                MOQ of 30 units for standard sizes and 100 units for custom
-                sizes, while other packaging types start with an MOQ of 300+
-                units.
-              </p>
-              <h5>
-                {" "}
-                <i
-                  className="fa-solid fa-lightbulb"
-                  style={{ color: "#FAB005" }}
-                ></i>{" "}
-                Do you provide samples?{" "}
-              </h5>
-              <p className="ms-4">
-                Yes! We have sample types that serve different purposes. Whether
-                you're looking to test the size of your packaging or want to
-                check your artwork to be printed, we've got you covered. Explore
-                all sample options here.
-              </p>
-              <h5>
-                {" "}
-                <i
-                  className="fa-solid fa-lightbulb"
-                  style={{ color: "#FAB005" }}
-                ></i>{" "}
-                Can you help design custom inserts for my products?{" "}
-              </h5>
-              <p className="ms-4">
-                Yes we can! Start a structural design project with us to get the
-                perfect insert design for your products. Learn more here.
-              </p>
+              <Question
+                question="Do you provide website maintenance services?"
+                answer="Yes, we offer website maintenance services to keep your website secure, updated, and running smoothly. Our maintenance plans include regular backups, security checks, software updates, and technical support."
+              />
+              <Question
+                question="Can I update the website content myself?"
+                answer="Yes, we can set up a content management system (CMS) like WordPress or provide you with a user-friendly interface to update content, images, and other elements of your website easily."
+              />
+              <Question
+                question="Do you offer website hosting?"
+                answer="Yes, we provide website hosting services on reliable servers with guaranteed uptime, security features, and support. Our hosting plans are tailored to meet your website's requirements."
+              />
             </div>
           </div>
         </div>
@@ -98,5 +44,12 @@ const FrequentlyAskedQuestions = () => {
     </section>
   );
 };
+
+const Question = ({ question, answer }) => (
+  <>
+    <h5>{question}</h5>
+    <p className="ms-4">{answer}</p>
+  </>
+);
 
 export default FrequentlyAskedQuestions;
