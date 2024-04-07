@@ -1,17 +1,17 @@
 import HomeContent from "./Components/HomeContent";
-import Introduction from "./Components/Introduction";
+//import Introduction from "./Components/Introduction";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer";
 import "./Components/Styles.module.css";
 import {
   BrowserRouter as Router,
-  Switch,
+  
   Route,
-  Link,
+  
   BrowserRouter,
   Routes,
 } from "react-router-dom";
-import ExplorePackaging from "./Components/Custom Packaging Section/ExplorePackaging";
+//import ExplorePackaging from "./Components/Custom Packaging Section/ExplorePackaging";
 import Pricing from "./Components/Pricing";
 import Contact from "./Components/Contacts/Contact"
 
