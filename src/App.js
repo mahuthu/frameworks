@@ -1,19 +1,10 @@
 import HomeContent from "./Components/HomeContent";
-//import Introduction from "./Components/Introduction";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer";
 import "./Components/Styles.module.css";
-import {
-  BrowserRouter as Router,
-  
-  Route,
-  
-  BrowserRouter,
-  Routes,
-} from "react-router-dom";
-//import ExplorePackaging from "./Components/Custom Packaging Section/ExplorePackaging";
+import { BrowserRouter, Routes, Route } from "react-router-dom"; // Remove BrowserRouter as Router import
 import Pricing from "./Components/Pricing";
-import Contact from "./Components/Contacts/Contact"
+import Contact from "./Components/Contacts/Contact";
 
 function App() {
   return (

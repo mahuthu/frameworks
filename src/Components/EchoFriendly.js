@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Styles.module.css"
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 const EchoFriendly = () => {
   return (
     <div className={"container-fluid " + classes.echo}>

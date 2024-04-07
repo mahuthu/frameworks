@@ -6,7 +6,7 @@ const Contact = () => {
     return (
       <div className="contact-container">
         <div className="contact-image">
-          <img src={companyImage} alt="Company Image" />
+          <img src={companyImage} alt=" Nairobi Company " />
           <div className="contact-overlay">
             <h2>Contact Us</h2>
             <div className="contact-info">

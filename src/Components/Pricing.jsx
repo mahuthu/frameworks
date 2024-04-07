@@ -62,9 +62,9 @@ const Pricing = () => {
                   </li>
                 ))}
               </ul>
-              <a href="#" className="subscribe-button">
+              <button className="subscribe-button" type="button">
                 Learn More
-              </a>
+              </button>
             </div>
           </div>
         ))}
