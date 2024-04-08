@@ -46,8 +46,9 @@ const Footer = () => {
                 <li>Web Design and Development</li>
                 <li>Graphic Design</li>
                 <li>E-commerce Solutions</li>
-                <li>Brand Identity Design</li>
-                <li>SEO and Digital Marketing</li>
+                <li>Social Media Management</li>
+                <li>WhatsApp Business Integration</li>
+                <li>Custom Solutions and Integrations</li>
               </ul>
             </div>
           </div>

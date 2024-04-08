@@ -2,10 +2,14 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import project1Image from '../../Dataset/default2.jpg'; // Import images for projects
-import project2Image from '../../Dataset/default2.jpg';
-import project3Image from '../../Dataset/default2.jpg';
-import "./Project.css"
+import project1Image from '../../Dataset/blog.png'; // Import images for projects
+import project2Image from '../../Dataset/cart.png';
+import project3Image from '../../Dataset/initiateafrica.png';
+import project4Image from '../../Dataset/kofiake.png';
+import project5Image from '../../Dataset/savannahai.png';
+import project6Image from '../../Dataset/framer.png';
+
+import './Project.css';
 // Import other project images as needed
 
 const Projects = () => {
@@ -13,17 +17,32 @@ const Projects = () => {
     {
       id: 1,
       imageUrl: project1Image,
-      description: 'Project 1 Description',
+      description: '<a href="https://savannah-ai.onrender.com/">Blog Site</a>',
     },
     {
       id: 2,
       imageUrl: project2Image,
-      description: 'Project 2 Description',
+      description: '<a href="https://kofia.netlify.app/"> eCommerce</a>',
     },
     {
       id: 3,
       imageUrl: project3Image,
-      description: 'Project 3 Description',
+      description: '<a href="https://intitiateafrica.netlify.app/">Company Website</a>',
+    },
+    {
+      id: 4,
+      imageUrl: project4Image,
+      description: '<a href="https://kofia.netlify.app/"> Business website</a>',
+    },
+    {
+      id: 5,
+      imageUrl: project5Image,
+      description: '<a href="https://savannahai.netlify.app/">Organization Website</a>',
+    },
+    {
+      id: 6,
+      imageUrl: project6Image,
+      description: '<a href="https://mahuthu.framer.ai/page">Portfolio Website</a>',
     },
     // Add more projects as needed
   ];
@@ -32,7 +51,7 @@ const Projects = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides to show at once
+    slidesToShow: 2, // Number of slides to show at once
     slidesToScroll: 1, // Number of slides to scroll
     autoplay: true,
     autoplaySpeed: 3000, // Autoplay interval in milliseconds
@@ -61,7 +80,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div key={project.id} className="project-item">
             <img src={project.imageUrl} alt={`Project ${project.id}`} className="project-image" />
-            <p className="project-description">{project.description}</p>
+            <p className="project-description" dangerouslySetInnerHTML={{ __html: project.description }} />
           </div>
         ))}
       </Slider>
