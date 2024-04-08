@@ -26,11 +26,30 @@ const CustomerReviews = () => {
                     Our experience with SavannahBuilders has been exceptional. They
                     crafted a stunning website for our business, exceeding our
                     expectations in every aspect. Their attention to detail,
-                    timely delivery, and professionalism are commendable. We
-                    highly recommend SavannahBuilders to anyone seeking top-notch
-                    web design services.
+                    timely delivery, and professionalism are commendable.
                   </p>
                   <h5>Ann Wanjiru</h5>
+                  <h6>
+                    <i className="fa fa-star" aria-hidden="true" style={{color: "yellow"}}></i>&nbsp;
+                    <i className="fa fa-star" aria-hidden="true" style={{color: "yellow"}}></i>&nbsp;
+                    <i className="fa fa-star" aria-hidden="true" style={{color: "yellow"}}></i>&nbsp;
+                    <i className="fa fa-star" aria-hidden="true" style={{color: "yellow"}}></i>&nbsp;
+                    <i className="fa fa-star" aria-hidden="true" style={{color: "yellow"}}></i>
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12 my-3 ">
+              <div className="card" style={{ width: "20rem" }}>
+                <div className="card-body">
+                  <h5 className="card-title">Excellent Service</h5>
+                  <p className="card-text">
+                  SavannahBuilders did an amazing job creating our website.
+                   They paid close attention to detail, delivered on time, and were very professional.
+                    Plus, their prices are affordable! We wholeheartedly recommend SavannahBuilders to anyone 
+                    in search of high-quality web design services at an affordable price point."
+                  </p>
+                  <h5>Paul Kibe</h5>
                   <h6>
                     <i className="fa fa-star" aria-hidden="true" style={{color: "yellow"}}></i>&nbsp;
                     <i className="fa fa-star" aria-hidden="true" style={{color: "yellow"}}></i>&nbsp;
