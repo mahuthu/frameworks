@@ -13,7 +13,7 @@ const Footer = () => {
                 <li>Savannah Builders</li>
                 <li> Kahawa Sukari, Thika Road,</li>
                 <li>Nairobi, Kenya</li>
-                <li>Phone1: 0793207217</li>
+                <li>Phone1: 0793704217</li>
                 <li>Phone2: 0726258462</li>
                 <li>Email: SavannahBuilders@gmail.com</li>
               </ul>

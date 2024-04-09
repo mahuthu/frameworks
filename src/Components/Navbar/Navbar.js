@@ -108,11 +108,7 @@ const Navbar = () => {
                 <li>
                   <hr className="dropdown-divider" />{" "}
                 </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                    Explore All Services
-                  </Link>
-                </li>
+                
               </ul>
             </li>
             <li className="nav-item dropdown">
@@ -149,11 +145,7 @@ const Navbar = () => {
                 <li>
                   <hr className="dropdown-divider" />{" "}
                 </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                    Something else here
-                  </Link>
-                </li>
+                
               </ul>
             </li>
             <li className="nav-item dropdown">
@@ -206,11 +198,7 @@ const Navbar = () => {
                 <li>
                   <hr className="dropdown-divider" />{" "}
                 </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                    Explore All Products
-                  </Link>
-                </li>
+                
               </ul>
             </li>
             <li className="nav-item dropdown">
