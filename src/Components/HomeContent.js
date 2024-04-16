@@ -1,26 +1,22 @@
 import React from "react";
-//import CustomBoxes from "./CustomBoxes";
-import CustomerReviews from "./CustomerReviews";
 import EchoFriendly from "./EchoFriendly";
-import FrequentlyAskedQuestions from "./FrequentlyAskedQuestions";
-//import PackagingGrid from "./PackagingGrid";
-//import PackingSolutions from "./PackingSolutions";
 import Process from "./Process";
 import StartJourney from "./StartJourney";
 import Introduction from "./Introduction";
-import Projects from "./Projects/Projects"
-import Services from "./Services/Services"
+import Projects1 from "./Projects/project2"
+import Services from "./Services/Services4"
+import CustomerReviews from "./reviews/reviews";
+import Process1 from "./process2"
 const HomeContent = () => {
   return (
     <>
           <Introduction />
           <EchoFriendly />
           <Services />
-          <Projects/>
-          <Process />
-          <CustomerReviews />
-          <FrequentlyAskedQuestions />
+          <Process1/>
+          <CustomerReviews/>
           <StartJourney />
+          <Projects1/>
     </>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Styles.module.css";
 import { NavLink } from "react-router-dom";
+import logoImage from "../Dataset/4.png"
 const Footer = () => {
   return (
     <footer>
@@ -26,16 +27,16 @@ const Footer = () => {
                   <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about">About us</NavLink>
+                  <NavLink to="/digital">Digital Prescence Services</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/portfolio">Portfolio</NavLink>
+                  <NavLink to="/business">Business Intergration Services</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/blog">Blog</NavLink>
+                  <NavLink to="/analytics">Analytics, ML and AI Services</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact">Contact us</NavLink>
+                  <NavLink to="/Blog">Blog</NavLink>
                 </li>
               </ul>
             </div>
@@ -43,13 +44,13 @@ const Footer = () => {
             <div className="col-lg-3 col-md-3 col-12">
               <ul>
                 <h5>Our Services</h5>
-                <li>Web Design and Development</li>
-                <li>Graphic Design</li>
-                <li>E-commerce Solutions</li>
-                <li>Social Media Management</li>
-                <li>WhatsApp Business Integration</li>
-                <li>Custom Solutions and Integrations</li>
+                <li><NavLink to="/digital">Digital Prescence Services</NavLink></li>
+                <li><NavLink to="/business">Business Integration services</NavLink></li>
+                <li><NavLink to="/analytics">Analytics, ML AND AI Services</NavLink></li>
               </ul>
+            </div>
+            <div className="col-lg-3 col-md-3 col-12">
+              <img src={logoImage} alt="Logo" className="img-fluid" />
             </div>
           </div>
         </div>

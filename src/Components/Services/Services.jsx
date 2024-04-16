@@ -35,7 +35,7 @@ const Services = () => {
     ];
 
     return (
-        <div className="services-container" style={{ backgroundImage: `url(${backgroundImage})` }}>
+        <div className="services-container1" style={{ backgroundImage: `url(${backgroundImage})` }}>
             <div className="services-overlay">
             <h2 className="services-heading">Our Products</h2>
 

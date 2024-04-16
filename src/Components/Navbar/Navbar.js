@@ -28,54 +28,16 @@ const Navbar = () => {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav m-auto mb-2 mb-lg-0 ">
-            <li className="nav-item dropdown">
-              <Link
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+          <li className="nav-item">
+              <Link className="nav-link" to="/">
                 Home
               </Link>
-              <ul className="dropdown-menu">
-                <li>
-                  <Link className="dropdown-item" to="custom-packaging">
-                    About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                    Our Products
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                    Our Projects
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                    Our Process
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                    Customer Reviews
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                    FAQ's
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                    Pricing
-                  </Link>
-                </li>
-                </ul>
-                </li>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/aboutus">
+                About Us
+              </Link>
+            </li>
 
               <li className="nav-item dropdown">
                 <Link
@@ -91,22 +53,23 @@ const Navbar = () => {
               <ul className="dropdown-menu">
                 
                 <li>
-                  <Link className="dropdown-item" to="/">
-                  E-commerce Website Development:
+                  <Link className="dropdown-item" to="/website">
+                 Website Development:
                   </Link>
                 </li>
+                
                 <li>
-                  <Link className="dropdown-item" to="/">
-                  Landing Pages
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/social">
                   Social Media Management
                   </Link>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />{" "}
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/digital">
+                    Explore All Services
+                  </Link>
                 </li>
                 
               </ul>
@@ -123,17 +86,17 @@ const Navbar = () => {
               </Link>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/whatsapp">
                   WhatsApp Business Integration
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/training">
                   Training and Consultation
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/custom">
                   Custom Solutions and Integrations
                   </Link>
                 </li>
@@ -144,6 +107,11 @@ const Navbar = () => {
                 </li>
                 <li>
                   <hr className="dropdown-divider" />{" "}
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/business">
+                    Explore All Services
+                  </Link>
                 </li>
                 
               </ul>
@@ -156,47 +124,31 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Our Products
+                Analytics, ML And AI Services
               </Link>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" to="/">
-                  Company Websites
+                  <Link className="dropdown-item" to="/chatbot">
+                  Chatbot Development
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/">
-                  Business Websites
+                  <Link className="dropdown-item" to="/model">
+                  Model Training and Fine tuning
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/">
-                  Corporate Websites
+                  <Link className="dropdown-item" to="/annotation">
+                  Data  collection and annotation
                   </Link>
                 </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                  eCommerce Websites
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                  Portfolio Websites
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                  Organization Websites
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                  Personal Websites
-                  </Link>
-                </li>
-
                 <li>
                   <hr className="dropdown-divider" />{" "}
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/analytics">
+                    Explore All Services
+                  </Link>
                 </li>
                 
               </ul>
