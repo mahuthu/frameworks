@@ -4,22 +4,30 @@ const processSteps = [
   {
     logo: <i className="fas fa-magic"></i>,
     id: "1",
-    title: "Software Development",
-    description: "AGILE offers scalable end-to-end application development and management solutions from requirement analysis for deployment and rollout. We are developing software, related to pension administration, manufacturing, Sacco Solutions, Education / School Management Solutions, Investment Solutions, Enterprise Resource Planning Solutions, Public Sector Solutions, document management solutions, mobile solutions.",
+    title: "Web Design and Development",
+    description: "We specialize in creating robust eCommerce solutions tailored to your business needs. From user-friendly shopping carts to secure payment gateways, we ensure a seamless online shopping experience. We also offer other various website development services including portfolio websites, blog or personal websites, educational websites, corporate or business websites and nonprofit or charity websites",
   },
 
   {
-    logo: <i className="fa fa-dollar" aria-hidden="true"></i>,
-    id: "3",
-    title: "Network & Infrastructure Services",
-    description: "AGILE services enable clients to identify, develop, and implement the best-ﬁt solutions which are equipped to meet their changing business requirements.",
-  },
-
-  {
-    logo: <i className="fas fa-tools"></i>,
+    logo: <i className="fas fa-globe"></i>,
     id: "2",
-    title: "Infrastructure & Support Services",
-    description: "AGILE has the expertise and experience to manage an enabling infrastructure and applications and run outsourced operations for all industries. AGILE Manages Services offering that covers the entire IT including networks, IT infrastructure, applications and business processes. This provides our customers the best of both worlds - control and ﬂexibility over their information systems without either the pain or cost of running them",
+    title: "Customization",
+    description: "Our Customization services cover a wide range of solutions including ERP solutions, CRM solutions, third-party API integrations, custom Inventory Management Systems (IMS), Project Management Systems, Learning Management Systems (LMS), Supply Chain Management (SCM) Systems, and comprehensive training and consultation.",
+  },
+
+  {
+    logo: <i className="fas fa-chart-line"></i>,
+    id: "3",
+    title: "Analytics AI and ML Services",
+    description: "Step into the future of business intelligence with our comprehensive AI-driven solutions. From developing intelligent chatbots for seamless customer interactions to cutting-edge model training and fine-tuning recommendation engines, we empower you to harness the full potential of artificial intelligence. Our expertise in data collection and annotation ensures accuracy and depth in your datasets, paving the way for actionable insights and strategic decision-making. Our Analytics Services also offer a wide range of solutions including customer segmentation, healthcare analytics, financial services analytics, and comprehensive training and consultation",
+  },
+
+
+  {
+    logo: <i className="fas fa-chalkboard-teacher"></i>,
+    id: "4",
+    title: "Training",
+    description: "We offer comprehensive training programs to help you and your team master the latest technologies and industry best practices. From software development to analytics and ML services, we provide hands-on training and expert guidance to enhance your skills and capabilities.",
   },
 ];
 
@@ -42,9 +50,12 @@ const Process1 = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-12">
-              <h2>Company Overview</h2>
-              <h1>Savannah Insights has been driving vision into action for our clients</h1>
-              <p>We consult for high-end technology implementation at clients’ site or implementation of new technology according to the clients’ requirement or upgrading, enhancing the existing facilities in the clients end with the new technology integrated with the existing one. Our consulting services cover:</p>
+              <h2>About Savannah Builders</h2>
+              <h1>Driving Vision into Action</h1>
+              <p>Savannah Builders is a leading technology consulting firm dedicated to helping businesses transform their digital landscape.</p>
+              <p> Since its inception, Savannah Builders has worked tirelessly to build systems that tailor-fit to the size, budget, and needs of our customers. Our customers are empowered by technical expertise executing projects allocated to Savannah Builders and we ensure we deliver the customized solutions on time.</p>
+              <p>At Savannah Builders, we know this success is the direct result of continued investment in our framework technology and a sustained commitment to the core values and best practices. As we continue to grow, scope, and influence, our purpose remains the same: to deliver dynamic IT solutions to our esteemed customers, to work with you in understanding your unique vision, implementation and to drive that vision into action through customer experience</p>
+              <p>We specialize in:</p>
             </div>
           </div>
         </div>
@@ -64,21 +75,21 @@ const Process1 = () => {
               <div className="square-container bg-light">
                 <i className="fas fa-bullseye fa-3x"></i> {/* Mission Icon */}
                 <h3>Mission</h3>
-                <p>Our mission is...</p>
+                <p>Our mission is to foster long-term partnerships, and exceeding customer expectations every step of the way.".</p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="square-container bg-light">
                 <i className="fas fa-chart-line fa-3x"></i> {/* Goal Icon */}
                 <h3>Goal</h3>
-                <p>Our goal is...</p>
+                <p>Our goal is to be a leader in the Industry by providing the right and concise solution</p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="square-container bg-light">
                 <i className="fas fa-handshake fa-3x"></i> {/* Purpose Icon */}
                 <h3>Purpose</h3>
-                <p>Our purpose is...</p>
+                <p>Our purpose is drive value through provision of adaptive solutions</p>
               </div>
             </div>
           </div>

@@ -17,7 +17,7 @@ const Website = () => {
         <div className="App">
     
             <Navbar />
-            <AboutUs1 mainHeading="About Us Page" subHeading="Home &raquo; About US" />
+            <AboutUs1 mainHeading="Website Design and Development" subHeading="Home &raquo; Services" />
 
             
             <Process1/>

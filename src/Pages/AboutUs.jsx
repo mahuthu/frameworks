@@ -4,7 +4,7 @@ import "../Components/Styles.module.css";
 import Services from "../Components/Process3";
 import AboutUs1 from "../Components/Aboutus/Aboutus1";
 import CustomerReviews from "../Components/reviews/reviews";
-import React from "react"
+import React from "react";
 
 
 
