@@ -1,26 +1,22 @@
 import React from 'react';
 import './Services1.css'; // Import CSS file for styling
 import backgroundImage from "../../Dataset/nairobi2.jpg"; // Import your background image
-import ecommerceImage from "../../Dataset/cart.png"; // Import image for e-commerce
 import landingPagesImage from "../../Dataset/initiateafrica.png"; // Import image for landing pages
 import socialMediaImage from "../../Dataset/kofiake.png"; // Import image for social media management
 
 const Services = () => {
     const services = [
-        {
-            title: "Whatsapp Business Intergration",
-            description: "We specialize in creating robust e-commerce solutions tailored to your business needs. From user-friendly shopping carts to secure payment gateways, we ensure a seamless online shopping experience.",
-            image: ecommerceImage,
-        },
-        {
-            title: "Training and Consultation",
-            description: "Our landing page designs are crafted to convert visitors into customers. With compelling visuals and persuasive copywriting, we help you make a lasting impression and drive conversions.",
-            image: landingPagesImage,
-        },
+        
         {
             title: "Custom solutions and Intergrations",
             description: "Let us handle your social media presence while you focus on growing your business. From content creation to community engagement, we help you build a strong brand presence on social platforms.",
             image: socialMediaImage,
+        },
+
+        {
+            title: "Training and Consultation",
+            description: "Our landing page designs are crafted to convert visitors into customers. With compelling visuals and persuasive copywriting, we help you make a lasting impression and drive conversions.",
+            image: landingPagesImage,
         },
     ];
 

@@ -10,7 +10,7 @@ const Annotation = () => {
         <div className="App">
     
             <Navbar />
-            <AboutUs1 mainHeading="Data Collection and Annotation" subHeading="Home &raquo; Services" />
+            <AboutUs1 mainHeading="Data Collection and Annotation " subHeading="Home &raquo; Services" />
 
             <Process1/>
             <Footer />

@@ -2,12 +2,13 @@ import React from "react";
 
 const processSteps = [
   {
-    logo: <i className="fas fa-magic"></i>,
-    id: "1",
-    title: "Website Development",
-    description: "We specialize in creating robust eCommerce solutions tailored to your business needs. From user-friendly shopping carts to secure payment gateways, we ensure a seamless online shopping experience. We also offer other various website development services including portfolio websites, blog or personal websites, educational websites, corporate or business websites and nonprofit or charity websites",
+    logo: <i className="fas fa-globe"></i>,
+    id: "2",
+    title: "Customization",
+    description: "Our Customization services cover a wide range of solutions including ERP solutions, CRM solutions, third-party API integrations, custom Inventory Management Systems (IMS), Project Management Systems, Learning Management Systems (LMS), Supply Chain Management (SCM) Systems, and comprehensive training and consultation.",
   },
 
+  
 ];
 
 const Process1 = () => {

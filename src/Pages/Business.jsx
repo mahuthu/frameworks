@@ -1,7 +1,7 @@
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer";
 import "../Components/Styles.module.css";
-import Services from "../Components/Services/Services3";
+import Services from "../Components/Services/ServiceCustom";
 import AboutUs1 from "../Components/Aboutus/Aboutus6";
 import React from "react"
 

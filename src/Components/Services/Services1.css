@@ -19,6 +19,8 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    flex-direction: column;
+    
   }
   
   .services-heading {
@@ -35,22 +37,16 @@
   }
   
   .service-section {
-    flex: 0 0 calc(50% - 20px); /* Adjust width for responsiveness and spacing */
     background-color: #f5f5f5;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     max-width: 600px;
+    margin-right: 30px
   }
   
-  .service-section:nth-child(odd) {
-    margin-right: 20px; /* Add margin between sections for odd sections */
-  }
-  
-  .service-section:nth-child(even) {
-    margin-left: 20px; /* Add margin between sections for even sections */
-  }
+ 
   
   .service-section h3 {
     font-size: 1.5rem;

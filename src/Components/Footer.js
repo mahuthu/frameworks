@@ -43,10 +43,16 @@ const Footer = () => {
 
             <div className="col-lg-3 col-md-3 col-12">
               <ul>
-                <h5>Our Services</h5>
-                <li><NavLink to="/digital">Digital Prescence Services</NavLink></li>
-                <li><NavLink to="/business">Business Integration services</NavLink></li>
-                <li><NavLink to="/analytics">Analytics, ML AND AI Services</NavLink></li>
+                <h5>Our Solutions</h5>
+                <li><NavLink to="">Website Design and Development</NavLink></li>
+                <li><NavLink to="">Social Media Management</NavLink></li>
+                <li><NavLink to="">Management Softwares</NavLink></li>
+                <li><NavLink to="">Chatbots</NavLink></li>
+                <li><NavLink to="">Recommendation Engines</NavLink></li>
+                <li><NavLink to="">Data collection and annotation</NavLink></li>
+                <li><NavLink to="">Customer Analytics</NavLink></li>
+                <li><NavLink to="">Marketing Analytics</NavLink></li>
+                <li><NavLink to="">Training and Consultation</NavLink></li>
               </ul>
             </div>
             <div className="col-lg-3 col-md-3 col-12">

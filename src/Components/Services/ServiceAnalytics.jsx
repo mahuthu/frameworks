@@ -1,0 +1,63 @@
+import React from 'react';
+import './Services1.css'; // Import CSS file for styling
+import backgroundImage from "../../Dataset/nairobi2.jpg"; // Import your background image
+import chatbotImage from "../../Dataset/chatbot.jpeg"; // Import image for Chatbot Development
+import dataCollectionImage from "../../Dataset/data.jpg"; // Import image for Data collection and annotation Services
+import recommendationImage from "../../Dataset/recommend.jpg"; // Import image for Recommendation Engines
+import customerAnalyticsImage from "../../Dataset/tableau1.jpg"; // Import image for Customer Analytics
+import marketingAnalyticsImage from "../../Dataset/tableau1.jpg"; // Import image for Marketing Analytics
+import trainingImage from "../../Dataset/training.png"; // Import image for Training and Consultation
+
+const Services = () => {
+    const services = [
+        {
+            title: "Chatbot Development",
+            description: "Build AI-powered chatbots tailored to your business needs using advanced NLP techniques. Savannah Builders utilizes tools such as IBM Watson Chatbot and Microsoft Azure to create conversational interfaces that enhance customer engagement and support.",
+            image: chatbotImage,
+        },
+        {
+            title: "Data Collection and Annotation Services",
+            description: "Efficiently collect and annotate data for machine learning and AI projects. Savannah Builders leverages various data annotation tools for accurate labeling and preprocessing, ensuring high-quality datasets for AI model training.",
+            image: dataCollectionImage,
+        },
+        {
+            title: "Recommendation Engines",
+            description: "Create personalized recommendation systems to enhance user experience. Savannah Builders utilizes tools like Microsoft Azure to analyze user behavior and preferences, enabling accurate and targeted recommendations that improve customer satisfaction.",
+            image: recommendationImage,
+        },
+        {
+            title: "Customer Analytics",
+            description: "Analyze customer data to gain insights and improve customer satisfaction. Savannah Builders uses analytics tools such as Tableau to visualize and interpret customer behavior, enabling data-driven decision-making and personalized customer experiences.",
+            image: customerAnalyticsImage,
+        },
+        {
+            title: "Marketing Analytics",
+            description: "Utilize data-driven marketing strategies for better campaign performance. Savannah Builders leverages tools like Tableau for comprehensive marketing analytics and reporting, optimizing marketing efforts and driving business growth.",
+            image: marketingAnalyticsImage,
+        },
+        {
+            title: "Training and Consultation",
+            description: "Provide training and consultation services on AI, ML, and data science. Savannah Builders offers expertise and guidance using industry-standard tools and technologies, empowering businesses to harness the full potential of AI-driven solutions.",
+            image: trainingImage,
+        },
+    ];
+
+    return (
+        <div className="services-container1" style={{ backgroundImage: `url(${backgroundImage})` }}>
+            <div className="services-overlay">
+                <h2 className="services-heading">Our Services</h2>
+                <div className="service-info">
+                    {services.map((service, index) => (
+                        <div key={index} className="service-section">
+                            <img src={service.image} alt={service.title} />
+                            <h3>{service.title}</h3>
+                            <p>{service.description}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Services;

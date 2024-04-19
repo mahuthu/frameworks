@@ -2,10 +2,10 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import project1Image from '../../Dataset/crm.jpg'; // Import images for projects
+import project1Image from '../../Dataset/servercore.jpg'; // Import images for projects
 import project2Image from '../../Dataset/Salesforce.jpeg';
-import project3Image from '../../Dataset/sas.jpeg';
-import project4Image from '../../Dataset/Tableau.png';
+import project3Image from '../../Dataset/azure1.png';
+import project4Image from '../../Dataset/tableau1.jpg';
 import project5Image from '../../Dataset/whatsapp.png';
 import project6Image from '../../Dataset/dyamics.jpg';
 import project7Image from '../../Dataset/chatbot.jpeg';
@@ -19,7 +19,7 @@ const Projects1 = () => {
     {
       id: 1,
       imageUrl: project1Image,
-      description: 'Microsoft Dynamics',
+      description: 'Servercore',
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ const Projects1 = () => {
     {
       id: 3,
       imageUrl: project3Image,
-      description: 'SAS',
+      description: 'Microsoft Azure',
     },
     {
       id: 4,
@@ -46,11 +46,7 @@ const Projects1 = () => {
       imageUrl: project6Image,
       description: 'Microsoft Dynamics',
     },
-    {
-    id: 7,
-    imageUrl: project7Image,
-    description: 'Chatbot',
-    },
+    
     {
       id: 8,
       imageUrl: project4Image,

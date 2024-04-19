@@ -59,7 +59,7 @@ const Navbar = () => {
                 </li>
                 
                 <li>
-                  <Link className="dropdown-item" to="/social">
+                  <Link className="dropdown-item" to="/whatsapp">
                   Social Media Management
                   </Link>
                 </li>
@@ -86,8 +86,33 @@ const Navbar = () => {
               </Link>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" to="/whatsapp">
-                  WhatsApp Business Integration
+                  <Link className="dropdown-item" to="/">
+                  CRM Solutions
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/">
+                  ERP Solutions
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/">
+                  Inventory Management Systems
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/">
+                  Project Management Systems
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/">
+                  Learning Management Systems
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/">
+                  Supply Chain Management Systems
                   </Link>
                 </li>
                 <li>
@@ -95,11 +120,7 @@ const Navbar = () => {
                   Training and Consultation
                   </Link>
                 </li>
-                <li>
-                  <Link className="dropdown-item" to="/custom">
-                  Custom Solutions and Integrations
-                  </Link>
-                </li>
+                
                 <li>
                   <Link className="dropdown-item" to="/">
                 
@@ -134,12 +155,27 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/model">
-                  Model Training and Fine tuning
+                  Recommendation Systems
                   </Link>
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/annotation">
                   Data  collection and annotation
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="">
+                  Customer Analytics
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="">
+                  Marketing Analytics
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="">
+                  Training and Consultation
                   </Link>
                 </li>
                 <li>

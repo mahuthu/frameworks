@@ -13,7 +13,7 @@ const Services = () => {
             image: ecommerceImage,
         },
         {
-            title: "Model Training and Fine tuning",
+            title: "Recommendation Engines",
             description: "Our landing page designs are crafted to convert visitors into customers. With compelling visuals and persuasive copywriting, we help you make a lasting impression and drive conversions.",
             image: landingPagesImage,
         },
@@ -22,6 +22,26 @@ const Services = () => {
             description: "Let us handle your social media presence while you focus on growing your business. From content creation to community engagement, we help you build a strong brand presence on social platforms.",
             image: socialMediaImage,
         },
+
+        {
+            title: "Customer Analytics",
+            description: "Let us handle your social media presence while you focus on growing your business. From content creation to community engagement, we help you build a strong brand presence on social platforms.",
+            image: socialMediaImage,
+        },
+
+        {
+            title: "Marketing Analytics",
+            description: "Let us handle your social media presence while you focus on growing your business. From content creation to community engagement, we help you build a strong brand presence on social platforms.",
+            image: socialMediaImage,
+        },
+
+        {
+            title: "Training and Consultation",
+            description: "Let us handle your social media presence while you focus on growing your business. From content creation to community engagement, we help you build a strong brand presence on social platforms.",
+            image: socialMediaImage,
+        },
+
+        
     ];
 
      

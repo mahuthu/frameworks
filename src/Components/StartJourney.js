@@ -10,10 +10,10 @@ const StartJourney = () => {
                 <div className='row text-center py-5'>
                     <div className='col-12'>
                         <h1>
-                        Start your Online Journey Today
+                        Start your  Journey Today
                         </h1>
                         <p>
-                        Get to know our range of website solutions and choose one that meets your needs.
+                        Get to know our range of solutions and choose one that meets your needs.
                         </p>
                         <Button className="mt-5">Explore our Products</Button>
                     </div>

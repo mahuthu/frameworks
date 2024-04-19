@@ -18,8 +18,8 @@ const processSteps = [
   {
     logo: <i className="fas fa-bullhorn"></i>,
     id: "3",
-    title: "Bloggers & Personal Brands",
-    description: "Stand out in the digital landscape with our services for bloggers and personal brands. From website development to content management, we help you create a strong online presence.",
+    title: " Personal Brands",
+    description: "Stand out in the digital landscape with our personal brand services. From website development to content management, we help you create a strong online presence.",
   },
 
   {
@@ -42,6 +42,8 @@ const processSteps = [
     title: "Logistics",
     description: "Optimize your logistics operations with our comprehensive solutions. From route planning to warehouse management, we streamline your supply chain for maximum efficiency.",
   },
+
+  
 ];
 
 const Process1 = () => {

@@ -13,7 +13,7 @@ const Services = () => {
             title: "Digital Prescence Services",
             description: (
                 <>
-                    <p>- eCommerce websites</p>
+                    <p>- E-Commerce Solutions</p>
                     <p>- Portfolio Websites</p>
                     <p>- Blog or Personal Websites</p>
                     <p>- Educational Websites</p>
@@ -30,9 +30,8 @@ const Services = () => {
             logo: <i className="fas fa-globe"></i>,
             description: (
                 <>
-                    <p>- Whatsapp Business Integration</p>
-                    <p>- ERP solutions</p>
                     <p>- CRM solutions</p>
+                    <p>- ERP solutions</p>
                     <p>- Third party API integrations</p>
                     <p>- Custom Invetory Management Systems (IMS)</p>
                     <p>- Custom Project Management Systems</p>
@@ -44,7 +43,7 @@ const Services = () => {
                 </>
             ),
 
-            title: "Business intergration services",
+            title: "Business Integration services",
             image: landingPagesImage,
             route: "/business"
         },
@@ -54,13 +53,11 @@ const Services = () => {
             title: "Analytics, Ml and AI services",
             description: (
                 <>
-                    <p>- Chatbot and Virtual Assistant Development</p>
-                    <p>- Cutting-edge model training and fine-tuning</p>
+                    <p>- Chatbot Development</p>
                     <p>- Data collection and annotation Services</p>
                     <p>- Recommendation Engines</p>
-                    <p>- Customer Segmentation</p>
-                    <p>- Healthcare Analytics</p>
-                    <p>- Financial Services Analytics</p>
+                    <p>- Customer Analytics</p>
+                    <p>- Marketing Analytics</p>
                     <p>- Training and Consultation</p>
                     
                     
@@ -77,12 +74,12 @@ const Services = () => {
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${backgroundImage})` }}>
             <div className = "services-overlay">
             <h2 className="services-heading">Our Solutions</h2>
-            <h1 className='services-head'>We’re a Premium Business Solutions Provider</h1>
-            <p className='services-head'>Our solutions are designed to help you achieve your business goals. Our culture is to satisfy our client's needs by offering top class customized solutions that are in line with the latest technology and best IT practices.</p>
+            <h1 className='services-head' style = {{color: '#fff'}}>We’re a Premium Business Solutions Provider</h1>
+            <p className='services-head' style = {{color: '#fff'}}>Our solutions are designed to help you achieve your business goals. Our culture is to satisfy our client's needs by offering top class customized solutions that are in line with the latest technology and best IT practices.</p>
 
-            <div className="service-info">
+            <div className="service-info" >
                 {services.map((service, index) => (
-                    <div key={index} className="service-section">
+                    <div key={index} className="service-section" style = {{ backgroundColor: '#32325c', color: '#fff' }}>
                         <h1>{service.logo}</h1>  <h3>{service.title}</h3>
 
 

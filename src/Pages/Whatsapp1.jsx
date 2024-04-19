@@ -10,7 +10,7 @@ const Whatsapp = () => {
         <div className="App">
     
             <Navbar />
-            <AboutUs1 mainHeading="Whatsapp Business Integration" subHeading="Home &raquo; Services" />
+            <AboutUs1 mainHeading="Social Media Management" subHeading="Home &raquo; Services" />
 
 
             <Process1/>

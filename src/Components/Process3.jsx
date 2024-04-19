@@ -11,8 +11,8 @@ const processSteps = [
   {
     logo: <i className="fas fa-globe"></i>,
     id: "2",
-    title: "Customization",
-    description: "Our Customization services cover a wide range of solutions including ERP solutions, CRM solutions, third-party API integrations, custom Inventory Management Systems (IMS), Project Management Systems, Learning Management Systems (LMS), Supply Chain Management (SCM) Systems, and comprehensive training and consultation.",
+    title: "Business Solutions",
+    description: "Our Business and Customization services cover a wide range of solutions including ERP solutions, CRM solutions, third-party API integrations, Inventory Management Systems (IMS), Project Management Systems, Learning Management Systems (LMS), Supply Chain Management (SCM) Systems, and comprehensive training and consultation.",
   },
 
   {
@@ -22,10 +22,17 @@ const processSteps = [
     description: "Step into the future of business intelligence with our comprehensive AI-driven solutions. From developing intelligent chatbots for seamless customer interactions to cutting-edge model training and fine-tuning recommendation engines, we empower you to harness the full potential of artificial intelligence. Our expertise in data collection and annotation ensures accuracy and depth in your datasets, paving the way for actionable insights and strategic decision-making. Our Analytics Services also offer a wide range of solutions including customer segmentation, healthcare analytics, financial services analytics, and comprehensive training and consultation",
   },
 
+  {
+    logo: <i className="fab fa-whatsapp"></i>,
+    id: "4",
+    title: "Social Media Management & WhatsApp Business Integration",
+    description: "Our social media management services focus on enhancing brand presence and engagement across platforms. We customize strategies, create engaging content, manage communities, and provide analytics. Additionally, we integrate WhatsApp Business for real-time customer support, order updates, targeted campaigns, and automated messaging, aiming to build strong customer relationships, drive sales, and foster brand loyalty in the digital era",
+  },
+
 
   {
     logo: <i className="fas fa-chalkboard-teacher"></i>,
-    id: "4",
+    id: "5",
     title: "Training",
     description: "We offer comprehensive training programs to help you and your team master the latest technologies and industry best practices. From software development to analytics and ML services, we provide hands-on training and expert guidance to enhance your skills and capabilities.",
   },
