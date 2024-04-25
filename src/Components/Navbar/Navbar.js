@@ -86,37 +86,37 @@ const Navbar = () => {
               </Link>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/crm">
                   CRM Solutions
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/erp">
                   ERP Solutions
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/ims">
                   Inventory Management Systems
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/pms">
                   Project Management Systems
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/lms">
                   Learning Management Systems
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/">
+                  <Link className="dropdown-item" to="/scm">
                   Supply Chain Management Systems
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/training">
+                  <Link className="dropdown-item" to="/training1">
                   Training and Consultation
                   </Link>
                 </li>
@@ -154,27 +154,27 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/model">
+                  <Link className="dropdown-item" to="/recommend">
                   Recommendation Systems
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/annotation">
+                  <Link className="dropdown-item" to="/collection">
                   Data  collection and annotation
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="">
+                  <Link className="dropdown-item" to="/customer">
                   Customer Analytics
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="">
+                  <Link className="dropdown-item" to="/marketing">
                   Marketing Analytics
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="">
+                  <Link className="dropdown-item" to="/consult">
                   Training and Consultation
                   </Link>
                 </li>
@@ -189,30 +189,10 @@ const Navbar = () => {
                 
               </ul>
             </li>
-            <li className="nav-item dropdown">
-              <Link
-                className="nav-link dropdown-toggle"
-                to="/"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+            <li className="nav-item">
+              <Link className="nav-link" to="">
                 Blog
               </Link>
-              <ul className="dropdown-menu">
-                <li>
-                  <Link className="dropdown-item" to="/">
-                    Register
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/">
-                    Login
-                  </Link>
-                </li>
-                
-                
-              </ul>
             </li>
             
             <li>

@@ -60,7 +60,7 @@ const Services2 = () => {
                 <h2 className="services-heading">Our Solutions</h2>
                 <div className="service-info">
                     {services.map((service, index) => (
-                        <div key={index} className="service-section">
+                        <div key={index} className={`service-section ${index % 2 === 0 ? "bg-light" : "bg-dark text-white"} `}>
                             <img src={service.image} alt={service.title} />
                             <h3>{service.title}</h3>
                             <p>{service.description}</p>

@@ -34,6 +34,8 @@ const Services = () => {
         },
     ];
 
+    
+
     return (
         <div className="services-container1" style={{ backgroundImage: `url(${backgroundImage})` }}>
             <div className="services-overlay">
@@ -41,7 +43,8 @@ const Services = () => {
 
                 <div className="service-info">
                     {services.map((service, index) => (
-                        <div key={index} className="service-section">
+                        <div key={index} className={`service-section ${index % 2 === 0 ? "bg-light" : "bg-dark text-white"} `}
+                         >
                             <h3>{service.title}</h3>
                             <p>{service.description}</p>
                         </div>

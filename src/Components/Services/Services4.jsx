@@ -54,7 +54,7 @@ const Services = () => {
             description: (
                 <>
                     <p>- Chatbot Development</p>
-                    <p>- Data collection and annotation Services</p>
+                    <p>- Data collection and annotation</p>
                     <p>- Recommendation Engines</p>
                     <p>- Customer Analytics</p>
                     <p>- Marketing Analytics</p>
@@ -79,7 +79,8 @@ const Services = () => {
 
             <div className="service-info" >
                 {services.map((service, index) => (
-                    <div key={index} className="service-section" style = {{ backgroundColor: '#32325c', color: '#fff' }}>
+                    <div key={index} className="service-section" style={{backgroundColor: "#F5F9FC"}}
+                    >
                         <h1>{service.logo}</h1>  <h3>{service.title}</h3>
 
 

@@ -1,10 +1,9 @@
 
 import React from 'react'
 import backgroundImage from "../Dataset/nairobi2.jpg";
-
 const EchoFriendly = () => {
   return (
-    <section className='py-5' style={{backgroundColor: "#F5F9FC"}}>
+    <section className='py-5' style = {{ backgroundColor: '#32325c', color: '#fff' }}>
         <div className='container-fluid py-5'>
             <div className='row'>
                 <div className='col-lg-2 offset-lg-1'>

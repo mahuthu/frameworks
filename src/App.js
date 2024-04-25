@@ -8,12 +8,26 @@ import AboutUs from './Pages/AboutUs';
 import Website from './Pages/Website1';
 import Analytics from "./Pages/Analytics";
 import Whatsapp from "./Pages/Whatsapp1";
-import Chatbot from "./Pages/Chatbot1";
+import Chatbot from "./Pages/Subservices/Chatbot";
 import Custom from "./Pages/Custom1";
 import Model1 from "./Pages/Model1";
 import Social from "./Pages/Social1";
 import Training from "./Pages/Training1";
 import Annotation from "./Pages/Annotation1";
+import Crm from "./Pages/Subservices/Crm";
+import Erp from "./Pages/Subservices/Erp";
+import Ims from "./Pages/Subservices/ims";
+import Pms from "./Pages/Subservices/Pms";
+import Lms from "./Pages/Subservices/Lms";
+import Scm from "./Pages/Subservices/Scm";
+import Training1 from "./Pages/Subservices/Training";
+import Collection from "./Pages/Subservices/Collection"
+import Consult from "./Pages/Subservices/Consult";
+import Marketing from "./Pages/Subservices/Marketing";
+import Recommend from "./Pages/Subservices/Recommend";
+
+
+
 
 import {
   BrowserRouter as Router,
@@ -39,6 +53,19 @@ const App = () => {
         <Route path="/social" element={<Social/>} />
         <Route path="/training" element={<Training/>} />
         <Route path="/annotation" element={<Annotation/>} />
+        <Route path="/crm" element={<Crm />} />
+        <Route path="/erp" element={<Erp />} />
+        <Route path="/ims" element={<Ims />} />
+        <Route path="/pms" element={<Pms />} />
+        <Route path="/lms" element={<Lms />} />
+        <Route path="/scm" element={<Scm />} />
+        <Route path="/training1" element={<Training1 />} />
+        <Route path = "/collection" element = {<Collection/>}/>
+        <Route path = "/consult" element = {<Consult/>}/>
+        <Route path = "/marketing" element = {<Marketing/>}/>
+        <Route path = "/recommend" element = {<Recommend/>}/>
+
+
 
         {/*<Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<Login />} />
