@@ -1,57 +1,78 @@
+import React from "react";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer";
-import  "../../Components/Styles.module.css";
+import "../../Components/Styles.module.css";
 import SubService from "../../Components/SubService";
 import AboutUs1 from "../../Components/Aboutus/Aboutus6";
-import React from "react";
-import crmImage from "../../Dataset/crm1.jpg"
+import crmImage from "../../Dataset/crm1.jpg";
 
 const Crm = () => {
     const crmService = {
         title: "CRM Solutions",
         image: crmImage,
-        description: (
-            <>
-              <p>
-                Experience seamless customer relationship management with solutions like Salesforce and Microsoft Dynamics. CRM solutions empower businesses of all sizes to build strong customer relationships, streamline sales processes, and drive growth.
+        description:  (
+          <>
+              <div className="icons-container d-flex justify-content-around flex-wrap">
+                  <div className="icon text-center">
+                      <i className="fas fa-users fa-3x" style={{ color: "#41E096", transition: "color 0.3s" }}></i>
+                      <p>Customer Management</p>
+                  </div>
+                  <div className="icon text-center">
+                      <i className="fas fa-chart-pie fa-3x" style={{ color: "#41E096", transition: "color 0.3s" }}></i>
+                      <p>Analytics and Insights</p>
+                  </div>
+                  <div className="icon text-center">
+                      <i className="fas fa-tasks fa-3x" style={{ color: "#41E096", transition: "color 0.3s" }}></i>
+                      <p>Task and Activity Management</p>
+                  </div>
+                  <div className="icon text-center">
+                      <i className="fas fa-money-bill-wave fa-3x" style={{ color: "#41E096", transition: "color 0.3s" }}></i>
+                      <p>Sales and Pipeline Management</p>
+                  </div>
+              </div>
+              <p style={{ marginTop: "30px", marginBottom: "20px" }}>
+                  Enhance customer relationships and drive sales with customized CRM solutions. CRM systems centralize customer data, provide actionable insights, and streamline sales and marketing processes for improved customer satisfaction and business growth.
               </p>
-              <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px" }}>
-                Advantages of CRM solutions include:
+              <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px", marginTop: "30px" }}>
+                  Advantages of CRM solutions include:
               </p>
-              <ul>
-                <li>Centralized Customer Data: Store all customer information in one place, making it easily accessible and helping businesses understand their customers better.</li>
-                <li>Improved Customer Relationships: CRM systems facilitate personalized interactions, allowing businesses to engage with customers more effectively and provide tailored solutions.</li>
-                <li>Enhanced Sales Processes: Automate sales tasks, track leads and opportunities, and manage pipelines efficiently, leading to increased sales productivity and revenue.</li>
-                <li>Data-driven Insights: Generate reports and analytics to gain valuable insights into customer behavior, market trends, and performance metrics, enabling informed decision-making.</li>
+              <ul style={{ textAlign: "left", marginBottom: "30px" }}>
+                  <li>Customer Management: Centralize customer data, track interactions, and personalize customer experiences for improved engagement.</li>
+                  <li>Analytics and Insights: Gain actionable insights, analyze customer behavior, and make data-driven decisions to optimize sales and marketing strategies.</li>
+                  <li>Task and Activity Management: Organize tasks, manage activities, and streamline workflows to enhance productivity and efficiency.</li>
+                  <li>Sales and Pipeline Management: Track leads, manage opportunities, and optimize the sales pipeline for increased revenue and business growth.</li>
               </ul>
-              <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px" }}>
-                Businesses of all sizes benefit from CRM solutions by:
+              <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px", marginTop: "30px" }}>
+                  Businesses benefit from CRM solutions by:
               </p>
-              <ul>
-                <li>Increasing Customer Retention: Nurture existing customer relationships and drive repeat business through targeted marketing campaigns and personalized communications.</li>
-                <li>Boosting Sales Performance: Streamline sales processes, identify upsell and cross-sell opportunities, and improve conversion rates through effective lead management.</li>
-                <li>Enhancing Customer Experience: Deliver exceptional customer service, address inquiries and issues promptly, and build long-term loyalty and trust.</li>
+              <ul style={{ textAlign: "left", marginBottom: "30px" }}>
+                  <li>Improved Customer Relationships: Nurture customer relationships, deliver personalized experiences, and enhance customer satisfaction.</li>
+                  <li>Informed Decision-Making: Access real-time data, generate reports, and leverage analytics for informed business decisions and strategy planning.</li>
+                  <li>Efficient Sales and Marketing: Streamline sales processes, automate marketing campaigns, and track performance metrics for better ROI.</li>
+                  <li>Scalability and Growth: Scale your business, expand customer base, and drive business growth with scalable CRM solutions.</li>
               </ul>
-              <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left"  }}>
-                At Savannah Builders, we specialize in helping businesses choose and adopt CRM solutions that best fit their unique needs and objectives. Our expertise in CRM implementation, customization, and training ensures a smooth transition and maximizes the benefits of CRM for your business growth.
+              <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+                  At Savannah Builders, we specialize in designing and implementing tailored CRM solutions to help you build lasting customer relationships and drive business success.
               </p>
-            </>
-          ),
+          </>
+      ),
       };
 
 
     return (
         <div className="App">
-    
-            <Navbar />
-            <AboutUs1 mainHeading="Customer Relationship Management" subHeading="Home &raquo; Services" />
-            <SubService title={crmService.title} image={crmService.image} description={crmService.description} />
 
             
+
+            <Navbar />
+            <AboutUs1 mainHeading="Customer Relationship Management" subHeading="Home » Services" />
+            <SubService title={crmService.title} image={crmService.image} description={crmService.description} />
+
+
             <Footer />
-        
+
         </div>
     );
-    }
+};
 
 export default Crm;

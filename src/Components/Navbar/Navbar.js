@@ -59,7 +59,7 @@ const Navbar = () => {
                 </li>
                 
                 <li>
-                  <Link className="dropdown-item" to="/whatsapp">
+                  <Link className="dropdown-item" to="/social">
                   Social Media Management
                   </Link>
                 </li>

@@ -25,6 +25,7 @@ import Collection from "./Pages/Subservices/Collection"
 import Consult from "./Pages/Subservices/Consult";
 import Marketing from "./Pages/Subservices/Marketing";
 import Recommend from "./Pages/Subservices/Recommend";
+import Customer from "./Pages/Subservices/Customer";
 
 
 
@@ -64,6 +65,7 @@ const App = () => {
         <Route path = "/consult" element = {<Consult/>}/>
         <Route path = "/marketing" element = {<Marketing/>}/>
         <Route path = "/recommend" element = {<Recommend/>}/>
+        <Route path = "/customer" element = {<Customer/>}/>
 
 
 

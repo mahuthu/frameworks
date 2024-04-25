@@ -13,7 +13,43 @@ const ERP = () => {
     const crmService = {
         title: "Recommendation System Solutions",
         image: erpImage,
-        description: ""
+        description: (
+            <>
+                <div className="icons-container d-flex justify-content-around flex-wrap">
+                    <div className="icon text-center">
+                        <i className="fas fa-star fa-3x" style={{ color: "#41E096", transition: "color 0.3s" }}></i>
+                        <p>Personalized Recommendations</p>
+                    </div>
+                    <div className="icon text-center">
+                        <i className="fas fa-search fa-3x" style={{ color: "#41E096", transition: "color 0.3s" }}></i>
+                        <p>Content Discovery</p>
+                    </div>
+                    <div className="icon text-center">
+                        <i className="fas fa-chart-line fa-3x" style={{ color: "#41E096", transition: "color 0.3s" }}></i>
+                        <p>Behavioral Analysis</p>
+                    </div>
+                    <div className="icon text-center">
+                        <i className="fas fa-comments fa-3x" style={{ color: "#41E096", transition: "color 0.3s" }}></i>
+                        <p>Feedback Integration</p>
+                    </div>
+                </div>
+                <p style={{ marginTop: "30px", marginBottom: "20px" }}>
+                    Enhance user experience and engagement with personalized recommendation systems. Our recommendation systems solutions cover personalized recommendations, content discovery, behavioral analysis, and feedback integration for improved user satisfaction.
+                </p>
+                <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px", marginTop: "30px" }}>
+                    Advantages of Recommendation Systems solutions include:
+                </p>
+                <ul style={{ textAlign: "left", marginBottom: "30px" }}>
+                    <li>Personalized Recommendations: Provide tailored content recommendations based on user preferences and behavior.</li>
+                    <li>Content Discovery: Improve content discovery and user engagement through intelligent recommendation algorithms.</li>
+                    <li>Behavioral Analysis: Analyze user behavior and interactions to enhance recommendation accuracy and relevance.</li>
+                    <li>Feedback Integration: Integrate user feedback and preferences into recommendation models for continuous improvement.</li>
+                </ul>
+                <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+                    At Savannah Builders, we specialize in Recommendation Systems Solutions that boost user engagement and drive business growth. Let us help you deliver personalized experiences that keep users coming back.
+                </p>
+            </>
+        ),
       };
     return (
         <div className="App">
