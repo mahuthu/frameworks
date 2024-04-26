@@ -12,8 +12,8 @@ const Model = () => {
         image: scmImage,
         description: (
             <>
-              <div className="icons-container d-flex justify-content-around flex-wrap">
-                    <div className="icon text-center">
+              <div className="icons-container d-flex justify-content-around flex-wrap bg-light" style={{ color: "#32325c" }}>
+                    <div className="icon text-center"> 
                         <i className="fas fa-boxes fa-3x" style={{ color: "#41E096", transition: "color 0.3s" }}></i>
                         <p>Inventory Optimization</p>
                     </div>

@@ -13,7 +13,7 @@ const Lms = () => {
         image: lmsImage,
         description: (
             <>
-              <div className="icons-container d-flex justify-content-around flex-wrap">
+              <div className="icons-container d-flex justify-content-around flex-wrap bg-light" style={{ color: "#32325c" }}>
                     <div className="icon text-center">
                         <i className="fas fa-user-graduate fa-3x" style={{ color: "#41E096", transition: "color 0.3s" }}></i>
                         <p>Personalized Learning</p>

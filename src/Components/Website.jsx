@@ -2,7 +2,7 @@ import React from "react";
 
 const processSteps = [
   {
-    logo: <i className="fas fa-magic"></i>,
+    logo: <i className="fas fa-code"></i>,
     id: "1",
     title: "Website Development",
     description: "We specialize in creating robust eCommerce solutions tailored to your business needs. From user-friendly shopping carts to secure payment gateways, we ensure a seamless online shopping experience. We also offer other various website development services including portfolio websites, blog or personal websites, educational websites, corporate or business websites and nonprofit or charity websites",

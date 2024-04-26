@@ -1,8 +1,7 @@
 import Home from './Pages/Home';
 import Digital from './Pages/Digital';
 import React from 'react';
-//import Login from "./Pages/Login";
-//import Blog from "./Pages/Blog";
+import Login from "./Pages/Login";
 import Business from './Pages/Business';
 import AboutUs from './Pages/AboutUs';
 import Website from './Pages/Website1';
@@ -26,6 +25,7 @@ import Consult from "./Pages/Subservices/Consult";
 import Marketing from "./Pages/Subservices/Marketing";
 import Recommend from "./Pages/Subservices/Recommend";
 import Customer from "./Pages/Subservices/Customer";
+import Blog from "./Pages/Blog"
 
 
 
@@ -66,12 +66,9 @@ const App = () => {
         <Route path = "/marketing" element = {<Marketing/>}/>
         <Route path = "/recommend" element = {<Recommend/>}/>
         <Route path = "/customer" element = {<Customer/>}/>
-
-
-
-        {/*<Route path="/cart" element={<Cart />} />
+        <Route path = "/blog" element = {<Blog/>}/>
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} /> */}
+        {/*<Route path="/register" element={<Register />} /> */}
       </Routes>
     </Router>
   );

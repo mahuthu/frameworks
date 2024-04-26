@@ -190,7 +190,7 @@ const Navbar = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="">
+              <Link className="nav-link" to="/blog">
                 Blog
               </Link>
             </li>
@@ -204,7 +204,7 @@ const Navbar = () => {
           </ul>
           <form className="d-flex" role="search">
             {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
-            <Link className="dropdown-item" to="/">
+            <Link className="dropdown-item" to="/login">
               Login
             </Link>
           </form>
