@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import project1Image from '../../Dataset/servercore.jpg'; // Import images for projects
 import project2Image from '../../Dataset/Salesforce.jpeg';
-import project3Image from '../../Dataset/azure1.png';
+import project3Image from '../../Dataset/Azure.jpg';
 import project4Image from '../../Dataset/tableau1.jpg';
 import project5Image from '../../Dataset/whatsapp.png';
 import project6Image from '../../Dataset/dyamics.jpg';

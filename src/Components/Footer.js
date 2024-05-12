@@ -56,7 +56,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-lg-3 col-md-3 col-12">
-              <img src={logoImage} alt="Logo" className="img-fluid" style={{ width: "100%", maxWidth: "100%" }} />
+              <img src={logoImage} alt="Logo" className="img-fluid" style={{ width: "50%", height: "auto", marginLeft:"40px" }} />
             </div>
           </div>
         </div>

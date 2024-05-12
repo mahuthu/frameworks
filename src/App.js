@@ -26,6 +26,7 @@ import Marketing from "./Pages/Subservices/Marketing";
 import Recommend from "./Pages/Subservices/Recommend";
 import Customer from "./Pages/Subservices/Customer";
 import Blog from "./Pages/Blog"
+import Cont from "./Pages/Contact"
 
 
 
@@ -68,6 +69,7 @@ const App = () => {
         <Route path = "/customer" element = {<Customer/>}/>
         <Route path = "/blog" element = {<Blog/>}/>
         <Route path="/login" element={<Login />} />
+        <Route path="/contact" element={<Cont />} />
         {/*<Route path="/register" element={<Register />} /> */}
       </Routes>
     </Router>

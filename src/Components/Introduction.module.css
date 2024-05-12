@@ -1,27 +1,38 @@
 .containerfluid{
-    background-image: url("../Dataset/nairobi2.jpg");
     background-size: cover;
     color: #32325C;
     height: 41rem;
+    
+    
 }
 .containerfluid .h1{
     font-size: 4rem;
 }
 .containerfluid .button{
         border-radius: 30px;
-        background-color: #41E096;
-        border: none;
+        background: #32325C;
+        color: #41E096;
         font-weight: bolder;
-    
+        border-color: #32325c;
+        transition: background-color 0.3s, color 0.3s;
+        display: ruby-base-container;
+
 }
+
+.containerfluid .button:hover {
+    background-image: url("../Dataset/nairobi2.jpg"); /* Change background color on hover */
+    color: #32325C; /* Change text color on hover */
+  }
+
 @media (max-width: 991px) {
     .containerfluid h1,h2{
        text-align: center;
+    
       
     }
     .containerfluid .button{
-        display: block;
         margin:0 auto;
+        display: block;
     }
 }
 

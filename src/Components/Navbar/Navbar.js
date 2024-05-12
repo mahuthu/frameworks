@@ -196,11 +196,10 @@ const Navbar = () => {
             </li>
             
             <li>
-              {" "}
-              <button className="btn btn-success" type="submit">
-                Contact Us
-              </button>
-            </li>
+            <Link to="/contact" className="btn btn-success">
+              Contact Us
+            </Link>
+          </li>
           </ul>
           <form className="d-flex" role="search">
             {/* <button className="btn btn-outline-success" type="submit">Search</button> */}

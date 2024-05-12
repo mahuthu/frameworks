@@ -33,10 +33,10 @@ const Services = () => {
                     <p>- CRM solutions</p>
                     <p>- ERP solutions</p>
                     <p>- Third party API integrations</p>
-                    <p>- Custom Invetory Management Systems (IMS)</p>
-                    <p>- Custom Project Management Systems</p>
-                    <p>- Custom Learning Management Systems (LMS)</p>
-                    <p>- Custom Supply Chain Management (SCM) Systems</p>
+                    <p>- Invetory Management Systems </p>
+                    <p>- Project Management Systems</p>
+                    <p>- Learning Management Systems</p>
+                    <p>- Supply Chain Management Systems</p>
                     <p>- Training and Consultation</p>
                     
                     
