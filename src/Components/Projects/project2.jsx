@@ -10,7 +10,7 @@ import project5Image from '../../Dataset/whatsapp.png';
 import project6Image from '../../Dataset/dyamics.jpg';
 import project7Image from '../../Dataset/ODOO.jpeg';
 import project8Image from '../../Dataset/ibm watson.jpg';
-import project9Image from '../../Dataset/zoho.png';
+import project9Image from '../../Dataset/zoho1.png';
 
 import './Projects2.css';
 // Import other project images as needed
