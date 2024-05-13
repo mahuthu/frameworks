@@ -34,7 +34,7 @@ const ERP = () => {
                     Enhance business operations and efficiency with Microsoft Dynamics ERP solutions. ERP solutions integrate seamlessly with your existing systems, providing real-time insights, automating processes, and optimizing resource allocation.
                 </p>
                 <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px", marginTop: "30px" }}>
-                    Functions of ERP solutions:
+                    ERP solutions include:
                 </p>
                 <ul style={{ textAlign: "left" }}>
                     <li>Streamlined Operations: Consolidate and automate business processes, reduce manual tasks, and improve operational efficiency across departments.</li>
@@ -43,7 +43,7 @@ const ERP = () => {
                     <li>Scalability: Adapt and scale your ERP system as your business grows, accommodating new processes, users, and functionalities.</li>
                 </ul>
                 <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
-                    At Savannah Builders, we specialize in ERP implementation, customization, and optimization tailored to your business goals. Let us help you harness the power of ERP to drive operational excellence and business growth.
+                    Savannah Inc, specializes in ERP implementation, customization, and optimization tailored to your business goals. Let us help you harness the power of ERP to drive operational excellence and business growth.
                 </p>
             </>
         ),

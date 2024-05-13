@@ -8,6 +8,7 @@
 .containerfluid .h1{
     font-size: 4rem;
 }
+
 .containerfluid .button{
         border-radius: 30px;
         background: #32325C;
@@ -24,15 +25,22 @@
     color: #32325C; /* Change text color on hover */
   }
 
-@media (max-width: 991px) {
+@media (max-width: 798px) {
     .containerfluid h1,h2{
-       text-align: center;
-    
+       text-align: left;
       
     }
+
+    
+
+    .containerfluid h2{
+        font-size: 1rem;
+
+    }
+
     .containerfluid .button{
         margin:0 auto;
-        display: block;
+        display: ruby-base-;
     }
 }
 

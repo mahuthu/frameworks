@@ -1,6 +1,5 @@
 import React from "react";
 import EchoFriendly from "./EchoFriendly";
-import Process from "./Process";
 import StartJourney from "./StartJourney";
 import Introduction from "./Introduction";
 import Projects1 from "./Projects/project2"

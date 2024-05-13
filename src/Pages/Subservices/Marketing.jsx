@@ -5,7 +5,7 @@ import "../../Components/Styles.module.css";
 import SubService from "../../Components/SubService";
 import AboutUs1 from "../../Components/Aboutus/Aboutus6";
 import React from "react";
-import erpImage from "../../Dataset/erp1.jpg"
+import erpImage from "../../Dataset/tableau1.jpg"
 
 
 const ERP = () => {
@@ -37,7 +37,7 @@ const ERP = () => {
                     Leverage marketing analytics solutions for data-driven insights, trend analysis, and performance metrics visualization. Our solutions empower you to make informed marketing decisions and optimize campaign effectiveness.
                 </p>
                 <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px", marginTop: "30px" }}>
-                    Advantages of Marketing Analytics solutions include:
+                    Marketing Analytics solutions include:
                 </p>
                 <ul style={{ textAlign: "left", marginBottom: "30px" }}>
                     <li>Data Visualization: Create interactive dashboards, charts, and graphs to visualize marketing data and trends.</li>
@@ -46,7 +46,7 @@ const ERP = () => {
                     <li>Performance Metrics: Track key performance indicators (KPIs), measure campaign effectiveness, and optimize marketing strategies.</li>
                 </ul>
                 <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
-                    At Savannah Builders, we specialize in delivering Marketing Analytics Solutions tailored to your business needs. Let us help you unlock actionable insights and drive marketing success.
+                    Savannah Inc delivers Marketing Analytics Solutions tailored to your business needs. Let us help you unlock actionable insights and drive marketing success.
                 </p>
             </>
         ),

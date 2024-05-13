@@ -21,7 +21,7 @@ const AboutUs1 = ({ mainHeading, subHeading }) => {
             <div className="overlay-text1">
               <div className="about-us-content">
                 <h1 className="h2 fw-bold mb-4">{mainHeading}</h1>
-                <h2 className="h4">{subHeading}</h2>
+                <h2 className="h4" style = {{textAlign:"center"}}>{subHeading}</h2>
               </div>
             </div>
           </div>

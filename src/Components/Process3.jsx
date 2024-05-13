@@ -57,11 +57,11 @@ const Process1 = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-12">
-              <h2>About Savannah Builders</h2>
+              <h2>About Savannah Inc</h2>
               <h1>Driving Vision into Action</h1>
-              <p>Savannah Builders is a leading technology consulting firm dedicated to helping businesses transform their digital landscape.</p>
-              <p> Since its inception, Savannah Builders has worked tirelessly to build systems that tailor-fit to the size, budget, and needs of our customers. Our customers are empowered by technical expertise executing projects allocated to Savannah Builders and we ensure we deliver the customized solutions on time.</p>
-              <p>At Savannah Builders, we know this success is the direct result of continued investment in our framework technology and a sustained commitment to the core values and best practices. As we continue to grow, scope, and influence, our purpose remains the same: to deliver dynamic IT solutions to our esteemed customers, to work with you in understanding your unique vision, implementation and to drive that vision into action through customer experience</p>
+              <p>Savannah Inc is a leading technology consulting firm dedicated to helping businesses transform their digital landscape.</p>
+              <p> Since its inception, Savannah Inc has worked tirelessly to build systems that tailor-fit to the size, budget, and needs of our customers. Our customers are empowered by technical expertise executing projects allocated to Savannah Inc and we ensure we deliver the customized solutions on time.</p>
+              <p>At Savannah Inc, we know this success is the direct result of continued investment in our framework technology and a sustained commitment to the core values and best practices. As we continue to grow, scope, and influence, our purpose remains the same: to deliver dynamic IT solutions to our esteemed customers, to work with you in understanding your unique vision, implementation and to drive that vision into action through customer experience</p>
               <p>We specialize in:</p>
             </div>
           </div>

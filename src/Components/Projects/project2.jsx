@@ -8,8 +8,9 @@ import project3Image from '../../Dataset/Azure.jpg';
 import project4Image from '../../Dataset/tableau1.jpg';
 import project5Image from '../../Dataset/whatsapp.png';
 import project6Image from '../../Dataset/dyamics.jpg';
-import project7Image from '../../Dataset/chatbot.jpeg';
+import project7Image from '../../Dataset/ODOO.jpeg';
 import project8Image from '../../Dataset/ibm watson.jpg';
+import project9Image from '../../Dataset/zoho.png';
 
 import './Projects2.css';
 // Import other project images as needed
@@ -46,13 +47,24 @@ const Projects1 = () => {
       imageUrl: project6Image,
       description: 'Microsoft Dynamics',
     },
+
+
+    {
+      id: 7,
+      imageUrl: project7Image,
+      description: 'Odoo',
+    },
     
     {
       id: 8,
       imageUrl: project4Image,
       description: 'Tableau',
     },  
-
+    {
+      id: 9,
+      imageUrl: project9Image,
+      description: 'Zoho',
+    },
     
     // Add more projects as needed
   ];

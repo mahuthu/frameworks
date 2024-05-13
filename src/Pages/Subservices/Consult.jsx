@@ -4,7 +4,7 @@ import "../../Components/Styles.module.css";
 import SubService from "../../Components/SubService";
 import AboutUs1 from "../../Components/Aboutus/Aboutus6";
 import React from "react";
-import crmImage from "../../Dataset/crm1.jpg"
+import crmImage from "../../Dataset/training.png"
 
 
 const Training = () => {
@@ -45,7 +45,7 @@ const Training = () => {
                     <li>Workflow Optimization: Optimization of workflows and automation of tasks using AI for enhanced productivity.</li>
                 </ul>
                 <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
-                    At Savannah Builders, we offer comprehensive AI Training and Consultation services to empower your workforce and drive business growth through AI innovation. Let us help you unlock the full potential of AI for improved productivity and efficiency.
+                    At Savannah Inc, we offer comprehensive AI Training and Consultation services to empower your workforce and drive business growth through AI innovation. Let us help you unlock the full potential of AI for improved productivity and efficiency.
                 </p>
             </>
         ),

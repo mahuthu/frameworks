@@ -5,7 +5,7 @@ import "../../Components/Styles.module.css";
 import SubService from "../../Components/SubService";
 import AboutUs1 from "../../Components/Aboutus/Aboutus6";
 import React from "react";
-import erpImage from "../../Dataset/erp1.jpg"
+import erpImage from "../../Dataset/data.jpg"
 
 
 const ERP = () => {
@@ -37,7 +37,7 @@ const ERP = () => {
                     Leverage our data collection and annotation solutions for accurate data labeling, annotation, and quality assurance. We provide comprehensive services to ensure your data is ready for AI and machine learning applications.
                 </p>
                 <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px", marginTop: "30px" }}>
-                    Advantages of Data Collection and Annotation solutions include:
+                    Data Collection and Annotation solutions include:
                 </p>
                 <ul style={{ textAlign: "left", marginBottom: "30px" }}>
                     <li>Data Collection: Gather structured and unstructured data from diverse sources for analysis and modeling.</li>
@@ -46,7 +46,7 @@ const ERP = () => {
                     <li>Data Quality Assurance: Ensure data quality through validation, cleaning, and normalization processes for reliable insights.</li>
                 </ul>
                 <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
-                    At Savannah Builders, we offer end-to-end Data Collection and Annotation Solutions to support your AI and machine learning initiatives. Let us help you unlock the full potential of your data.
+                    Savannah Inc offers end-to-end Data Collection and Annotation Solutions to support your AI and machine learning initiatives. Let us help you unlock the full potential of your data.
                 </p>
             </>
         ),

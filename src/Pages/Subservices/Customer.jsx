@@ -5,7 +5,7 @@ import "../../Components/Styles.module.css";
 import SubService from "../../Components/SubService";
 import AboutUs1 from "../../Components/Aboutus/Aboutus6";
 import React from "react";
-import erpImage from "../../Dataset/erp1.jpg"
+import erpImage from "../../Dataset/Tableau.png"
 
 
 const ERP = () => {
@@ -37,7 +37,7 @@ const ERP = () => {
                     Utilize customer analytics solutions for in-depth customer segmentation, behavioral analysis, and predictive modeling. Our solutions help you understand customer behavior, preferences, and needs for targeted marketing strategies.
                 </p>
                 <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px", marginTop: "30px" }}>
-                    Advantages of Customer Analytics solutions include:
+                    Customer Analytics solutions include:
                 </p>
                 <ul style={{ textAlign: "left", marginBottom: "30px" }}>
                     <li>Customer Segmentation: Divide customers into segments based on demographics, behavior, and preferences for personalized marketing.</li>
@@ -46,7 +46,7 @@ const ERP = () => {
                     <li>Customer Insights: Gain deep insights into customer needs, preferences, and sentiment to tailor marketing campaigns and improve customer experience.</li>
                 </ul>
                 <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
-                    At Savannah Builders, we offer Customer Analytics Solutions designed to enhance your customer understanding and drive strategic marketing decisions. Let us help you unlock valuable customer insights for business growth.
+                    At Savannah Inc, we offer Customer Analytics Solutions designed to enhance your customer understanding and drive strategic marketing decisions. Let us help you unlock valuable customer insights for business growth.
                 </p>
             </>
         ),

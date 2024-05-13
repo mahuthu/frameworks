@@ -30,12 +30,12 @@ const Cont = () => {
       <div className={classes.contactContainer}>
         <div className={classes.contactSection1}>
           <PhoneCall size={50} />
-          <p className={classes.contactInfo}>+1234567890</p>
+          <p className={classes.contactInfo}>+254793704217</p>
         </div>
         <hr className={classes.contactDivider} />
         <div className={classes.contactSection1}>
           <MailOpen size={50} color="#41e096" />
-          <p className={classes.contactInfo}>SavannahBuilders@info.com</p>
+          <p className={classes.contactInfo}>info@savannahInc.com</p>
         </div>
         <hr className={classes.contactDivider} />
         <div className={classes.contactSection1}>

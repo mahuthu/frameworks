@@ -35,7 +35,7 @@ const Ims = () => {
               Optimize inventory management with customized solutions tailored to your business needs. IMS solutions offer real-time inventory tracking, demand forecasting, and inventory optimization, reducing costs and improving efficiency.
           </p>
           <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px", marginTop: "30px", marginBottom: "20px" }}>
-              Advantages of IMS solutions include:
+              IMS solutions include:
           </p>
           <ul style={{ textAlign: "left", marginBottom: "30px" }}>
               <li>Real-time Inventory Tracking: Monitor stock levels, track inventory movement, and manage stockouts effectively to prevent disruptions.</li>
@@ -53,7 +53,7 @@ const Ims = () => {
               <li>Scalability: Scale your inventory management system as your business grows, accommodating new products, locations, and sales channels.</li>
           </ul>
           <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
-              At Savannah Builders, we specialize in designing and implementing customized Inventory Management Systems tailored to your business requirements. Let us help you streamline your inventory processes and achieve operational excellence.
+              At Savannah Inc, we specialize in designing and implementing customized Inventory Management Systems tailored to your business requirements. Let us help you streamline your inventory processes and achieve operational excellence.
           </p>
       </>
   ),

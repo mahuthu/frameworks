@@ -3,7 +3,7 @@ import React from 'react'
 import backgroundImage from "../Dataset/nairobi2.jpg";
 const EchoFriendly = () => {
   return (
-    <section className='py-5' style = {{ backgroundImage: `url(${backgroundImage})`, color: '32325c' }}>
+    <section className='py-5' style = {{  backgroundImage: `url(${backgroundImage})`, color: '32325c' }}>
         <div className='container-fluid py-5'>
             <div className='row'>
                 <div className='col-lg-2 offset-lg-1'>
@@ -11,7 +11,7 @@ const EchoFriendly = () => {
                 </div>
                 <div className='col-lg-8'>
                     <p className=" font-sans hover:font-serif text-lg-start ">
-                        Welcome to Savannah Builders, a place where digital design innovation and experience converge. With deep roots in our industry, Savannah was established to provide adequate and efficient superior IT solutions through customization and that is exactly what we have been doing. We specialize in software development, customization, IT consultancy services and training, driving vision into action for our clients.
+                        Savannah Inc, a place where digital design innovation and experience converge. With deep roots in our industry, Savannah Inc was established to provide adequate and efficient superior IT solutions through customization and that is exactly what we have been doing. We specialize in software development, customization, IT consultancy services and training, driving vision into action for our clients.
                     </p>
                 </div>
             </div>

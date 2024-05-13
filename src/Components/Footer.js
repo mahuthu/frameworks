@@ -11,12 +11,12 @@ const Footer = () => {
             <div className="col-lg-3 col-md-3 col-12">
               <ul>
                 <h5>Contact Information</h5>
-                <li>Savannah Builders</li>
+                <li>Savannah Inc</li>
                 <li> Kahawa Sukari, Thika Road,</li>
                 <li>Nairobi, Kenya</li>
                 <li>Phone1: 0793704217</li>
                 <li>Phone2: 0726258462</li>
-                <li>Email: SavannahBuilders@gmail.com</li>
+                <li>Email: info@savannahinc.com</li>
               </ul>
             </div>
 
@@ -44,15 +44,15 @@ const Footer = () => {
             <div className="col-lg-3 col-md-3 col-12">
               <ul>
                 <h5>Our Solutions</h5>
-                <li><NavLink to="">Website Design and Development</NavLink></li>
-                <li><NavLink to="">Social Media Management</NavLink></li>
-                <li><NavLink to="">Management Softwares</NavLink></li>
-                <li><NavLink to="">Chatbots</NavLink></li>
-                <li><NavLink to="">Recommendation Engines</NavLink></li>
-                <li><NavLink to="">Data collection and annotation</NavLink></li>
-                <li><NavLink to="">Customer Analytics</NavLink></li>
-                <li><NavLink to="">Marketing Analytics</NavLink></li>
-                <li><NavLink to="">Training and Consultation</NavLink></li>
+                <li><NavLink to="/website">Website Design and Development</NavLink></li>
+                <li><NavLink to="/social">Social Media Management</NavLink></li>
+                <li><NavLink to="/business">Management Softwares</NavLink></li>
+                <li><NavLink to="/chatbot">Chatbots</NavLink></li>
+                <li><NavLink to="/recommend">Recommendation Engines</NavLink></li>
+                <li><NavLink to="/collection">Data collection and annotation</NavLink></li>
+                <li><NavLink to="/customer">Customer Analytics</NavLink></li>
+                <li><NavLink to="/marketing">Marketing Analytics</NavLink></li>
+                <li><NavLink to="/training">Training and Consultation</NavLink></li>
               </ul>
             </div>
             <div className="col-lg-3 col-md-3 col-12">
@@ -67,7 +67,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-6 col-12">
               <p>
-                &copy; 2024 Savannah Builders, All Rights Reserved. | Privacy
+                &copy; 2024 Savannah Inc, All Rights Reserved. | Privacy
                 Policy | Terms
               </p>
             </div>

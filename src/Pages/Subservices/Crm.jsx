@@ -34,7 +34,7 @@ const Crm = () => {
                   Enhance customer relationships and drive sales with customized CRM solutions. CRM systems centralize customer data, provide actionable insights, and streamline sales and marketing processes for improved customer satisfaction and business growth.
               </p>
               <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px", marginTop: "30px" }}>
-                  Advantages of CRM solutions include:
+                   CRM solutions include:
               </p>
               <ul style={{ textAlign: "left", marginBottom: "30px" }}>
                   <li>Customer Management: Centralize customer data, track interactions, and personalize customer experiences for improved engagement.</li>
@@ -52,7 +52,7 @@ const Crm = () => {
                   <li>Scalability and Growth: Scale your business, expand customer base, and drive business growth with scalable CRM solutions.</li>
               </ul>
               <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
-                  At Savannah Builders, we specialize in designing and implementing tailored CRM solutions to help you build lasting customer relationships and drive business success.
+                  Savannah Inc, we specializes in designing and implementing tailored CRM solutions to help you build lasting customer relationships and drive business success.
               </p>
           </>
       ),

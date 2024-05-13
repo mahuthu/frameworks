@@ -36,7 +36,7 @@ const Pms = () => {
                     Efficiently manage projects and tasks with customized project management systems. Project management solutions streamline workflows, enhance collaboration, and ensure timely project delivery with comprehensive project tracking.
                 </p>
                 <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px", marginTop: "30px" }}>
-                    Advantages of PMS solutions include:
+                    PMS solutions include:
                 </p>
                 <ul style={{ textAlign: "left", marginBottom: "30px" }}>
                     <li>Task Management: Organize tasks, assign responsibilities, and track progress to ensure project milestones are met.</li>
@@ -54,7 +54,7 @@ const Pms = () => {
                     <li>Project Tracking and Reporting: Monitor project progress, generate reports, and analyze performance metrics to make data-driven decisions.</li>
                 </ul>
                 <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
-                    At Savannah Builders, we specialize in designing and implementing customized Project Management Systems tailored to your project management needs. Let us help you streamline your project workflows and achieve project success.
+                    Savannah Inc, specializes in designing and implementing customized Project Management Systems tailored to your project management needs. Let us help you streamline your project workflows and achieve project success.
                 </p>
             </>
         ),

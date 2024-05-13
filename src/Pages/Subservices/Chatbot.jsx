@@ -5,7 +5,7 @@ import "../../Components/Styles.module.css";
 import SubService from "../../Components/SubService";
 import AboutUs1 from "../../Components/Aboutus/Aboutus6";
 import React from "react";
-import erpImage from "../../Dataset/erp1.jpg"
+import erpImage from "../../Dataset/chatbot.jpeg"
 
 
 const ERP = () => {
@@ -37,7 +37,7 @@ const ERP = () => {
                     Transform customer interactions with intelligent chatbot solutions. Our chatbot development services cover design, development, integration, and AI-powered solutions for seamless customer engagement and support.
                 </p>
                 <p style={{ backgroundColor: "#32325c", color: "#ffffff", padding: "10px", borderRadius: "5px", marginTop: "30px" }}>
-                    Advantages of Chatbot Development solutions include:
+                     Chatbot Development solutions include:
                 </p>
                 <ul style={{ textAlign: "left", marginBottom: "30px" }}>
                     <li>Chatbot Design: Create intuitive and user-friendly chatbot interfaces for enhanced user experience.</li>
@@ -46,7 +46,7 @@ const ERP = () => {
                     <li>AI-Powered Solutions: Implement AI and machine learning capabilities for intelligent chatbot responses and decision-making.</li>
                 </ul>
                 <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
-                    At Savannah Builders, we specialize in Chatbot Development Solutions that enhance customer interactions and drive business growth. Let us create conversational experiences that delight your customers.
+                    Savannah Inc, specializes in Chatbot Development Solutions that enhance customer interactions and drive business growth. Let us create conversational experiences that delight your customers.
                 </p>
             </>
         ),

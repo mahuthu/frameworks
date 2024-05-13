@@ -31,7 +31,7 @@ const Process1 = () => {
           <div className="row text-center">
             <div className="col-12">
               <h2>Company Overview</h2>
-              <h1>Savannah Insights has been driving vision into action for our clients</h1>
+              <h1>Savannah Inc has been driving vision into action for our clients</h1>
               <p>We consult for high-end technology implementation at clients’ site or implementation of new technology according to the clients’ requirement or upgrading, enhancing the existing facilities in the clients end with the new technology integrated with the existing one. Our consulting services cover:</p>
             </div>
           </div>

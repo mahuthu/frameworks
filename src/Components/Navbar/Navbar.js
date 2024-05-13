@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link className="navbar-brand" to="/">
           {" "}
           <img src={logoImage} alt="Logo" width="50" height="50" />{" "}
-          <b> Savannah Builders </b>{" "}
+          <b> Savannah Inc </b>{" "}
         </Link>
         <button
           className="navbar-toggler"

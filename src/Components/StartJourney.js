@@ -1,6 +1,8 @@
 import React from 'react'
 import Button from './UI/Button'
 import backgroundImage from "../Dataset/nairobi2.jpg";
+import { Link } from 'react-router-dom';
+
 
 const StartJourney = () => {
   return (
@@ -15,7 +17,12 @@ const StartJourney = () => {
                         <p>
                         Get to know our range of solutions and choose one that meets your needs.
                         </p>
-                        <Button className="mt-5">Explore our Products</Button>
+                        <Link to="/aboutus">
+                          <Button className="mt-5">
+                            Explore our Products
+                          </Button>
+                        </Link>
+
                     </div>
                 </div>
             </div>

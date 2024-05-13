@@ -12,32 +12,32 @@ const Services = () => {
     const services = [
         {
             title: "Chatbot Development",
-            description: "Build AI-powered chatbots tailored to your business needs using advanced NLP techniques. Savannah Builders utilizes tools such as IBM Watson Chatbot and Microsoft Azure to create conversational interfaces that enhance customer engagement and support.",
+            description: "Build AI-powered chatbots tailored to your business needs using advanced NLP techniques. Savannah Inc utilizes tools such as IBM Watson Chatbot and Microsoft Azure to create conversational interfaces that enhance customer engagement and support.",
             image: chatbotImage,
         },
         {
             title: "Data Collection and Annotation Services",
-            description: "Efficiently collect and annotate data for machine learning and AI projects. Savannah Builders leverages various data annotation tools for accurate labeling and preprocessing, ensuring high-quality datasets for AI model training.",
+            description: "Efficiently collect and annotate data for machine learning and AI projects. Savannah Inc leverages various data annotation tools for accurate labeling and preprocessing, ensuring high-quality datasets for AI model training.",
             image: dataCollectionImage,
         },
         {
             title: "Recommendation Engines",
-            description: "Create personalized recommendation systems to enhance user experience. Savannah Builders utilizes tools like Microsoft Azure to analyze user behavior and preferences, enabling accurate and targeted recommendations that improve customer satisfaction.",
+            description: "Create personalized recommendation systems to enhance user experience. Savannah Inc utilizes tools like Microsoft Azure to analyze user behavior and preferences, enabling accurate and targeted recommendations that improve customer satisfaction.",
             image: recommendationImage,
         },
         {
             title: "Customer Analytics",
-            description: "Analyze customer data to gain insights and improve customer satisfaction. Savannah Builders uses analytics tools such as Tableau to visualize and interpret customer behavior, enabling data-driven decision-making and personalized customer experiences.",
+            description: "Analyze customer data to gain insights and improve customer satisfaction. Savannah Inc uses analytics tools such as Tableau to visualize and interpret customer behavior, enabling data-driven decision-making and personalized customer experiences.",
             image: customerAnalyticsImage,
         },
         {
             title: "Marketing Analytics",
-            description: "Utilize data-driven marketing strategies for better campaign performance. Savannah Builders leverages tools like Tableau for comprehensive marketing analytics and reporting, optimizing marketing efforts and driving business growth.",
+            description: "Utilize data-driven marketing strategies for better campaign performance. Savannah Inc leverages tools like Tableau for comprehensive marketing analytics and reporting, optimizing marketing efforts and driving business growth.",
             image: marketingAnalyticsImage,
         },
         {
             title: "Training and Consultation",
-            description: "Provide training and consultation services on AI, ML, and data science. Savannah Builders offers expertise and guidance using industry-standard tools and technologies, empowering businesses to harness the full potential of AI-driven solutions.",
+            description: "Provide training and consultation services on AI, ML, and data science. Savannah Inc offers expertise and guidance using industry-standard tools and technologies, empowering businesses to harness the full potential of AI-driven solutions.",
             image: trainingImage,
         },
     ];
