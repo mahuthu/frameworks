@@ -61,7 +61,7 @@ const Process1 = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-12">
-              <h2>Our Involvement</h2>
+              <h2 className="tite" style={{textAlign:"center"}}>Our Involvement </h2>
               <h1>Industry Solutions</h1>
               <p>We offer industry-specific solutions tailored to your business needs. Explore our range of services designed to drive growth and success.</p>
             </div>

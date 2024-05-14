@@ -20,7 +20,7 @@ const CustomerReviews = () => {
           <div className="row text-center">
             <div className="col-12">
               <div className="overlay-text">
-                <h2 style={{ color: "#fff" }}>We can help you to grow</h2>
+                <h2 style={{ color: "#fff", textAlign:"center" }}>We can help you to grow</h2>
                 <h1 style={{ color: "#fff" }}>Your Business</h1>
                 <h3 style={{ color: "#fff" }}>Experience the Difference</h3>
                 <div className="big-numbers">

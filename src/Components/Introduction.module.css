@@ -29,13 +29,17 @@
     color: #32325C; /* Change text color on hover */
   }
 
-@media (max-width: 9px) {
+@media (max-width: 700px) {
     .containerfluid h1,h2{
        text-align: left;
       
     }
 
+    .containerfluid h1{
+        font-size: 3rem;
+    }
     
+
 
     .containerfluid .button{
         margin:0 auto;

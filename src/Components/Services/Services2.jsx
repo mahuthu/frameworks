@@ -27,7 +27,7 @@ const Services = () => {
             <h2 className="services-heading">Digital Prescence Services</h2>
             <div className="service-info">
                 {services.map((service, index) => (
-                    <div key={index} className="service-section">
+                    <div key={index} className={`service-section ${index % 2 === 0 ? "bg-dark text-white" : "bg-light"} `}>
                         <div className="service-image">
                             <img src={service.image} alt={service.title} />
                         </div>
