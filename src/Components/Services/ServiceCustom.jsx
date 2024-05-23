@@ -14,7 +14,7 @@ const Services2 = () => {
     const services = [
         {
             title: "CRM Solutions",
-            description: "Experience seamless customer relationship management with solutions like Salesforce and Microsoft Dynamics. CRM solutions empower businesses to build strong customer relationships, streamline sales processes, and drive growth.",
+            description: "Experience seamless customer relationship management with solutions like Salesforce, ZOHO, Odoo and Microsoft Dynamics. CRM solutions empower businesses to build strong customer relationships, streamline sales processes, and drive growth.",
             image: crmImage,
         },
         {

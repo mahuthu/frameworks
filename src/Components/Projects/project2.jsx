@@ -11,6 +11,8 @@ import project6Image from '../../Dataset/dyamics.jpg';
 import project7Image from '../../Dataset/ODOO.jpeg';
 import project8Image from '../../Dataset/ibm watson.jpg';
 import project9Image from '../../Dataset/zoho1.png';
+import project10Image from "../../Dataset/infobip.png"
+
 
 import './Projects2.css';
 // Import other project images as needed
@@ -65,6 +67,11 @@ const Projects1 = () => {
       imageUrl: project9Image,
       description: 'Zoho',
     },
+    {
+      id: 10,
+      imageUrl: project10Image,
+      description: "Infobip"
+    }
     
     // Add more projects as needed
   ];

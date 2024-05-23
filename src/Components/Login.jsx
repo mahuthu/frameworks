@@ -65,11 +65,9 @@ const Login = () => {
           <input type="password" placeholder="password" style={inputStyle} />
           <button type="submit" style={buttonStyle}>LOGIN</button>
           <p style={{ marginBottom: "10px" }}>
-            <span style={linkStyle}>DO NOT YOU REMEMBER THE PASSWORD?</span>
+            <span style={linkStyle}>DO YOU REMEMBER YOUR PASSWORD?</span>
           </p>
-          <p>
-            <span style={linkStyle}>CREATE A NEW ACCOUNT</span>
-          </p>
+          
         </form>
       </div>
     </div>

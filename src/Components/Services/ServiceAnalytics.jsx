@@ -12,7 +12,7 @@ const Services = () => {
     const services = [
         {
             title: "Chatbot Development",
-            description: "Build AI-powered chatbots tailored to your business needs using advanced NLP techniques. Savannah Inc utilizes tools such as IBM Watson Chatbot and Microsoft Azure to create conversational interfaces that enhance customer engagement and support.",
+            description: "Build AI-powered chatbots tailored to your business needs using advanced NLP techniques. Savannah Inc utilizes tools such as IBM Watson Chatbot, Infobip and Microsoft Azure to create conversational interfaces that enhance customer engagement and support.",
             image: chatbotImage,
         },
         {

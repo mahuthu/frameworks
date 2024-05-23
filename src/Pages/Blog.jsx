@@ -16,12 +16,12 @@ const BlogPage = () => {
                 <Blog
                     image={blog1Image}
                     title="Blog Title 1"
-                    description="Short description for Blog 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    description="no content yet."
                 />
                 <Blog
                     image={blog2Image}
                     title="Blog Title 2"
-                    description="Short description for Blog 2. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    description="no content yet"
                 />
                 {/* Add more Blog components as needed */}
             </div>

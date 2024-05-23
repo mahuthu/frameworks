@@ -21,7 +21,7 @@ const AboutUs1 = () => {
             <div className="overlay-text1">
               <div className="about-us-content">
               <h1 className="h2 fw-bold mb-4">Company Overview</h1> {/* Using Bootstrap's display classes for responsive font size */}
-                <h2 className="h4">Home &raquo; About US</h2> {/* Replaced >> with » */}
+                <h2 className="h4" style= {{textAlign: "center"}}>Home &raquo; About US</h2> {/* Replaced >> with » */}
               </div>
             </div>
           </div>

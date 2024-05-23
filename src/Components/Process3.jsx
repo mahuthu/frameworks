@@ -5,7 +5,7 @@ const processSteps = [
     logo: <i className="fas fa-code " style={{ color: "#41E096", transition: "color 0.3s" }}></i>,
     id: "1",
     title: "Web Design and Development",
-    description: "We specialize in creating robust eCommerce solutions tailored to your business needs. From user-friendly shopping carts to secure payment gateways, we ensure a seamless online shopping experience. We also offer other various website development services including portfolio websites, blog or personal websites, educational websites, corporate or business websites and nonprofit or charity websites",
+    description: "We specialize in creating robust eCommerce solutions tailored to your business needs. From user-friendly shopping carts to secure payment gateways, we ensure a seamless online shopping experience. We also offer other various website development services including portfolio websites, blog or personal websites, educational websites and corporate or business websites",
   },
 
   {
@@ -19,7 +19,7 @@ const processSteps = [
     logo: <i className="fas fa-chart-line" style={{ color: "#41E096", transition: "color 0.3s" }}></i>,
     id: "3",
     title: "Analytics AI and ML Services",
-    description: "Step into the future of business intelligence with our comprehensive AI-driven solutions. From developing intelligent chatbots for seamless customer interactions to cutting-edge model training and fine-tuning recommendation engines, we empower you to harness the full potential of artificial intelligence. Our expertise in data collection and annotation ensures accuracy and depth in your datasets, paving the way for actionable insights and strategic decision-making. Our Analytics Services also offer a wide range of solutions including customer segmentation, healthcare analytics, financial services analytics, and comprehensive training and consultation",
+    description: "Step into the future of business intelligence with our comprehensive AI-driven solutions. From developing intelligent chatbots for seamless customer interactions to cutting-edge model training and fine-tuning recommendation engines, we empower you to harness the full potential of artificial intelligence. Our expertise in data collection and annotation ensures accuracy and depth in your datasets, paving the way for actionable insights and strategic decision-making. Our Analytics Services also offer a wide range of solutions including customer segmentation, behavioral analysis, trend analysis and comprehensive training and consultation",
   },
 
   {
@@ -57,7 +57,7 @@ const Process1 = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-12">
-              <h2>About Savannah Inc</h2>
+              <h2 className = "ttle" style = {{textAlign:"center"}}>About Savannah Inc</h2>
               <h1>Driving Vision into Action</h1>
               <p>Savannah Inc is a leading technology consulting firm dedicated to helping businesses transform their digital landscape.</p>
               <p> Since its inception, Savannah Inc has worked tirelessly to build systems that tailor-fit to the size, budget, and needs of our customers. Our customers are empowered by technical expertise executing projects allocated to Savannah Inc and we ensure we deliver the customized solutions on time.</p>

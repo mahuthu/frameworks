@@ -31,7 +31,7 @@ const Introduction = () => {
               cursor={{ show: false }} // Hide cursor during typing
               onTypingDone={handleTypingComplete} // Callback when typing is done
             >
-              <h1>
+              <h1 className='ttle' style={{color:"#41e096"}}>
                 Software to transform <br /> your business
               </h1>
             

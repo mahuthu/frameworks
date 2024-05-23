@@ -229,7 +229,7 @@ export const nav = [
     {
       category: 'AI Generated Websites',
       plan: 'Basic',
-      price: ' From ksh 3000',
+      price: ' From ksh 5000',
       ptext: 'per user, per month',
       list: [
         {
@@ -254,7 +254,7 @@ export const nav = [
       category: 'WordPress Websites',
       best: 'Best Value',
       plan: 'Standard',
-      price: 'From ksh 5000',
+      price: 'From ksh 8000',
       ptext: 'per user, per month',
       list: [
         {
@@ -282,7 +282,7 @@ export const nav = [
     {
       category: 'Custom Built Websites',
       plan: 'Platinum',
-      price: 'From Ksh 10,000',
+      price: 'From Ksh 15,000',
       ptext: '2 user, per month',
       list: [
         {
