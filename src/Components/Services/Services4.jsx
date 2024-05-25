@@ -18,8 +18,7 @@ const Services = () => {
                     <p>- Blog or Personal Websites</p>
                     <p>- Educational Websites</p>
                     <p>- Corporate or Business Websites</p>
-                    <p>- Nonprofit or Charity Websites</p>
-                    <p>- Strategic Social Media Management</p>
+                    <p>- Social Media Management</p>
                     
                 </>
             ),
@@ -74,14 +73,13 @@ const Services = () => {
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${backgroundImage})` }}>
             <div className = "services-overlay">
             <h2 className="services-heading">Our Solutions</h2>
-            <h1 className='services-head' style = {{color: '#fff'}}>We’re a Premium Business Solutions Provider</h1>
-            <p className='services-head' style = {{color: '#fff'}}>Our solutions are designed to help you achieve your business goals. Our culture is to satisfy our client's needs by offering top class customized solutions that are in line with the latest technology and best IT practices.</p>
+            <p className='services-head' style = {{color: '#fff'}}>Our solutions are designed to help you achieve your business goals. Our culture is to satisfy our client's needs by offering customized solutions that are in line with the latest technology and best IT practices.</p>
 
             <div className="service-info" >
                 {services.map((service, index) => (
-                    <div key={index} className="service-section" style={{backgroundColor: "#F5F9FC"}}
+                    <div key={index} className="service-section" style={{backgroundColor: "#000",  color:"#fff"}}
                     >
-                        <h1>{service.logo}</h1>  <h3>{service.title}</h3>
+                        <h1 className='head' style = {{color:"#40E096"}}>{service.logo}</h1>  <h3>{service.title}</h3>
 
 
                         <hr style={{ margin: "20px auto", maxWidth: "100%" }} /> {/* Added underline */}
@@ -90,7 +88,7 @@ const Services = () => {
                             <p>{service.description}</p>
                             <hr style={{ margin: "20px auto", maxWidth: "100%" }} /> {/* Added underline */}
 
-                            <Link to={service.route} className="btn btn-success px-3 py-2">
+                            <Link to={service.route} className="btn btn-success px-3 py-2 " style={{backgroundColor:"#32325C", color:"#42E096"}}>
                             Read More
                              </Link>
                         </div>

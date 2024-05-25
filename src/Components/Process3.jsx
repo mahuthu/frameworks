@@ -25,7 +25,7 @@ const processSteps = [
   {
     logo: <i className="fab fa-whatsapp" style={{ color: "#41E096", transition: "color 0.3s" }}></i>,
     id: "4",
-    title: "Social Media Management & WhatsApp Business Integration",
+    title: "Social Media Management",
     description: "Our social media management services focus on enhancing brand presence and engagement across platforms. We customize strategies, create engaging content, manage communities, and provide analytics. Additionally, we integrate WhatsApp Business for real-time customer support, order updates, targeted campaigns, and automated messaging, aiming to build strong customer relationships, drive sales, and foster brand loyalty in the digital era",
   },
 
@@ -33,7 +33,7 @@ const processSteps = [
   {
     logo: <i className="fas fa-chalkboard-teacher"style={{ color: "#41E096", transition: "color 0.3s" }}></i>,
     id: "5",
-    title: "Training",
+    title: "Training & Consultation",
     description: "We offer comprehensive training programs to help you and your team master the latest technologies and industry best practices. From software development to analytics and ML services, we provide hands-on training and expert guidance to enhance your skills and capabilities.",
   },
 ];
@@ -61,7 +61,6 @@ const Process1 = () => {
               <h1>Driving Vision into Action</h1>
               <p>Savannah Inc is a leading technology consulting firm dedicated to helping businesses transform their digital landscape.</p>
               <p> Since its inception, Savannah Inc has worked tirelessly to build systems that tailor-fit to the size, budget, and needs of our customers. Our customers are empowered by technical expertise executing projects allocated to Savannah Inc and we ensure we deliver the customized solutions on time.</p>
-              <p>At Savannah Inc, we know this success is the direct result of continued investment in our framework technology and a sustained commitment to the core values and best practices. As we continue to grow, scope, and influence, our purpose remains the same: to deliver dynamic IT solutions to our esteemed customers, to work with you in understanding your unique vision, implementation and to drive that vision into action through customer experience</p>
               <p>We specialize in:</p>
             </div>
           </div>
@@ -78,23 +77,23 @@ const Process1 = () => {
       <div className="container-fluid py-5">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
-              <div className="square-container bg-light">
-                <i className="fas fa-bullseye fa-3x" style={{ color: "#32325c", transition: "color 0.3s" }}></i> {/* Mission Icon */}
+            <div className="col-lg-4"style = {{backgroundColor:"#000"}}>
+              <div className="square-container" style = {{backgroundColor:"#000", color:"#fff"}} >
+                <i className="fas fa-bullseye fa-3x" style={{ color: "#40E096", transition: "color 0.3s" }}></i> {/* Mission Icon */}
                 <h3>Mission</h3>
                 <p>Our mission is to foster long-term partnerships, and exceeding customer expectations every step of the way.".</p>
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="square-container bg-light">
-                <i className="fas fa-chart-line fa-3x" style={{ color: "#32325c", transition: "color 0.3s" }}></i> {/* Goal Icon */}
+            <div className="col-lg-4"style = {{backgroundColor:"#000"}}>
+              <div className="square-container " style = {{backgroundColor:"#000", color:"#fff"}}>
+                <i className="fas fa-chart-line fa-3x" style={{ color: "#40E096", transition: "color 0.3s" }}></i> {/* Goal Icon */}
                 <h3>Goal</h3>
                 <p>Our goal is to be a leader in the Industry by providing the right and concise solution</p>
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="square-container bg-light">
-                <i className="fas fa-handshake fa-3x" style={{ color: "#32325c", transition: "color 0.3s" }}></i> {/* Purpose Icon */}
+            <div className="col-lg-4"style = {{backgroundColor:"#000"}} >
+              <div className="square-container " style = {{backgroundColor:"#000", color:"#fff"}}>
+                <i className="fas fa-handshake fa-3x" style={{ color: "#40E096", transition: "color 0.3s" }}></i> {/* Purpose Icon */}
                 <h3>Purpose</h3>
                 <p>Our purpose is drive value through provision of adaptive solutions</p>
               </div>

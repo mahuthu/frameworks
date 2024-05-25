@@ -6,7 +6,7 @@ import logoImage from "../../Dataset/4.png";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light px-0">
-      <div className="container-fluid ">
+      <div className="container-fluid " >
         <Link className="navbar-brand" to="/">
           {" "}
           <img src={logoImage} alt="Logo" width="50" height="50" />{" "}
@@ -27,7 +27,7 @@ const Navbar = () => {
           className="collapse navbar-collapse justify-content-between"
           id="navbarSupportedContent"
         >
-          <ul className="navbar-nav m-auto mb-2 mb-lg-0 ">
+          <ul className="navbar-nav m-auto mb-2 mb-lg-0 " >
           <li className="nav-item">
               <Link className="nav-link" to="/">
                 Home

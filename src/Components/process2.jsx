@@ -48,8 +48,8 @@ const processSteps = [
 
 const Process1 = () => {
   const processDisplay = processSteps.map((step) => (
-    <div className="col-lg-4" key={step.id} style={{ backgroundColor: "#F5F9FC" }}>
-      <h1>{step.logo}</h1>
+    <div className="col-lg-4" key={step.id} style={{ backgroundColor: "#000", color:"#fff" }}>
+      <h1 className="head" style = {{color:"#40E096"}}>{step.logo}</h1>
       <h3>{step.title}</h3>
       <p>{step.description}</p>
     </div>
@@ -57,7 +57,7 @@ const Process1 = () => {
 
   return (
     <section>
-      <div className="container-fluid py-5" style={{ backgroundColor: "#F5F9FC" }}>
+      <div className="container-fluid py-5" style={{ backgroundColor: "#fff" }}>
         <div className="container">
           <div className="row text-center">
             <div className="col-12">
