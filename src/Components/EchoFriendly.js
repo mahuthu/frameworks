@@ -7,7 +7,7 @@ const EchoFriendly = () => {
         <div className='container-fluid py-5'>
             <div className='row'>
                 <div className='col-lg-2 offset-lg-1'>
-                    <h1> About Us </h1>
+                    <h1> Company Overview </h1>
                 </div>
                 <div className='col-lg-8'>
                     <p className=" font-sans hover:font-serif text-lg-start ">

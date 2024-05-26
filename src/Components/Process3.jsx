@@ -60,7 +60,7 @@ const Process1 = () => {
               <h2 className = "ttle" style = {{textAlign:"center"}}>About Savannah Inc</h2>
               <h1>Driving Vision into Action</h1>
               <p>Savannah Inc is a leading technology consulting firm dedicated to helping businesses transform their digital landscape.</p>
-              <p> Since its inception, Savannah Inc has worked tirelessly to build systems that tailor-fit to the size, budget, and needs of our customers. Our customers are empowered by technical expertise executing projects allocated to Savannah Inc and we ensure we deliver the customized solutions on time.</p>
+              <p> Since its inception, Savannah Inc has worked tirelessly to build systems that tailor-fit to the size, budget, and needs of our customers. Our customers are empowered by our technical expertise  and we ensure we deliver the customized solutions on time.</p>
               <p>We specialize in:</p>
             </div>
           </div>

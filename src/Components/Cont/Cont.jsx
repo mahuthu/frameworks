@@ -35,7 +35,7 @@ const Cont = () => {
         <hr className={classes.contactDivider} />
         <div className={classes.contactSection1}>
           <MailOpen size={50} color="#41e096" />
-          <p className={classes.contactInfo}>info@savannahInc.com</p>
+          <p className={classes.contactInfo}>info@savannahinc.com</p>
         </div>
         <hr className={classes.contactDivider} />
         <div className={classes.contactSection1}>

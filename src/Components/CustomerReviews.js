@@ -23,10 +23,10 @@ const CustomerReviews = () => {
                 <div className="card-body">
                   <h5 className="card-title">Excellent Service</h5>
                   <p className="card-text">
-                    Our experience with SavannahBuilders has been exceptional. They
+                    Our experience with SavannahInc has been exceptional. They
                     crafted a stunning website for our business, exceeding our
-                    expectations in every aspect. Their attention to detail,
-                    timely delivery, and professionalism are commendable.
+                    expectations in every aspect. Their attention to detail
+                    and professionalism are commendable.
                   </p>
                   <h5>Ann Wanjiru</h5>
                   <h6>
@@ -44,10 +44,9 @@ const CustomerReviews = () => {
                 <div className="card-body">
                   <h5 className="card-title">Excellent Service</h5>
                   <p className="card-text">
-                  SavannahBuilders did an amazing job creating our website.
-                   They paid close attention to detail, delivered on time, and were very professional.
-                    Plus, their prices are affordable! We wholeheartedly recommend SavannahBuilders to anyone 
-                    in search of high-quality web design services at an affordable price point."
+                  SavannahInc did an amazing job creating our website.
+                   They paid close attention to detail, delivered on time.
+                    Plus, their prices are affordable!"
                   </p>
                   <h5>Paul Kibe</h5>
                   <h6>

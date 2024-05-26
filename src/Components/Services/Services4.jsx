@@ -42,7 +42,7 @@ const Services = () => {
                 </>
             ),
 
-            title: "Business Integration services",
+            title: "Business solution services",
             image: landingPagesImage,
             route: "/business"
         },
