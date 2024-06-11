@@ -1,0 +1,71 @@
+/* Echo.module.css */
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  .fade-in.delay-1 {
+    animation-delay: 0.3s;
+  }
+  
+  .fade-in.delay-2 {
+    animation-delay: 0.6s;
+  }
+  
+  .small-font {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .heading-line {
+    flex: 1;
+    height: 1px;
+    background-color: #32325c;
+    margin: 0 10px;
+  }
+  
+  .heading-text {
+    font-size: 30px; /* Same size as paragraph font */
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 767px) {
+    .heading-container {
+      flex-direction: column; /* Stack lines and heading vertically */
+    }
+    
+    .heading-line {
+      width: 100%;
+      margin: 5px 0; /* Adjust spacing as needed */
+    }
+  
+    .heading-text {
+      font-size: 28px; /* Ensure heading size matches paragraph size */
+    }
+
+    .small-font{
+        font-size: 18px;
+    }
+  }
+  
