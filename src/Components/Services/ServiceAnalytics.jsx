@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services1.css'; // Import CSS file for styling
+import styles from './Services1.module.css'; // Import CSS module for styling
 import backgroundImage from "../../Dataset/nairobi2.jpg"; // Import your background image
 import chatbotImage from "../../Dataset/chatbot.jpeg"; // Import image for Chatbot Development
 import dataCollectionImage from "../../Dataset/data.jpg"; // Import image for Data collection and annotation Services
@@ -43,15 +43,15 @@ const Services = () => {
     ];
 
     return (
-        <div className="services-container1" style={{ backgroundImage: `url(${backgroundImage})` }}>
-            <div className="services-overlay">
-                <h2 className="services-heading">Our Services</h2>
-                <div className="service-info">
+        <div className={styles.servicesContainer} style={{ backgroundImage: `url(${backgroundImage})` }}>
+            <div className={styles.servicesOverlay}>
+                <h2 className={styles.servicesHeading}>Our Services</h2>
+                <div className={styles.serviceInfo}>
                     {services.map((service, index) => (
-                        <div key={index} className={`service-section ${index % 2 === 0 ? "bg-light" : "bg-dark text-white"} `}>
-                            <img src={service.image} alt={service.title} />
-                            <h3>{service.title}</h3>
-                            <p>{service.description}</p>
+                        <div key={index} className={`${styles.serviceSection} ${index % 2 === 0 ? `${styles.bgLight} ${styles.textDark}` : styles.bgDark}`}>
+                            <img src={service.image} alt={service.title} className={styles.serviceImage} />
+                            <h3 className={styles.serviceTitle}>{service.title}</h3>
+                            <p className={styles.serviceDescription}>{service.description}</p>
                         </div>
                     ))}
                 </div>

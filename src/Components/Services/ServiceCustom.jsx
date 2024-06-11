@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services1.css'; // Import CSS file for styling
+import styles from './Services1.module.css'; // Import CSS module for styling
 import backgroundImage from "../../Dataset/nairobi2.jpg"; // Import your background image
 import crmImage from "../../Dataset/Salesforce.jpeg"; // Import image for CRM solutions
 import erpImage from "../../Dataset/dyamics.jpg"; // Import image for ERP solutions
@@ -33,7 +33,7 @@ const Services2 = () => {
             image: inventoryImage,
         },
         {
-            title: " Project Management Systems",
+            title: "Project Management Systems",
             description: "Efficiently manage projects and tasks with customized project management systems. Project management solutions streamline workflows, enhance collaboration, and ensure timely project delivery with comprehensive project tracking.",
             image: projectImage,
         },
@@ -43,7 +43,7 @@ const Services2 = () => {
             image: learningImage,
         },
         {
-            title: " Supply Chain Management (SCM) Systems",
+            title: "Supply Chain Management (SCM) Systems",
             description: "Streamline supply chain processes and logistics with customized SCM solutions. SCM systems optimize inventory levels, improve supplier collaboration, and reduce lead times, resulting in a more agile and efficient supply chain.",
             image: supplyChainImage,
         },
@@ -55,15 +55,15 @@ const Services2 = () => {
     ];
 
     return (
-        <div className="services-container2" style={{ backgroundImage: `url(${backgroundImage})` }}>
-            <div className="services-overlay">
-                <h2 className="services-heading">Our Solutions</h2>
-                <div className="service-info">
+        <div className={styles.servicesContainer} style={{ backgroundImage: `url(${backgroundImage})` }}>
+            <div className={styles.servicesOverlay}>
+                <h2 className={styles.servicesHeading}>Our Solutions</h2>
+                <div className={styles.serviceInfo}>
                     {services.map((service, index) => (
-                        <div key={index} className={`service-section ${index % 2 === 0 ? "bg-light" : "bg-dark text-white"} `}>
-                            <img src={service.image} alt={service.title} />
-                            <h3>{service.title}</h3>
-                            <p>{service.description}</p>
+                        <div key={index} className={`${styles.serviceSection} ${index % 2 === 0 ? `${styles.bgLight} ${styles.textDark}` : styles.bgDark}`}>
+                            <img src={service.image} alt={service.title} className={styles.serviceImage} />
+                            <h3 className={styles.serviceTitle}>{service.title}</h3>
+                            <p className={styles.serviceDescription}>{service.description}</p>
                         </div>
                     ))}
                 </div>
