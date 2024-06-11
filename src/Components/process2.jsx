@@ -63,7 +63,7 @@ const Process1 = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-12">
-              <h2 className={styles.title} style={{ marginBottom: "20px", color: "#32325C" }}>Our Involvement</h2>
+              <h2 className={styles.title} style={{ marginBottom: "20px", color: "#32325C", textAlign: "center" }}>Our Involvement</h2>
               <h1 className={styles.mainTitle} style={{ color: "#42E096" }}>Industry Solutions</h1>
               <p className={styles.subtitle}>We offer industry-specific solutions tailored to your business needs. Explore our range of services designed to drive growth and success.</p>
             </div>

@@ -19,7 +19,7 @@ const Introduction = () => {
 
   return (
     <div className={'container-fluid ' + classes.containerfluid} style = {{
-      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${backgroundImage})` }} >
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${backgroundImage})`}} >
       <div className='container '>
         <div className='row align-items-center' style={{ height: '41rem' }}>
           <div className='col-12 text-start'>
