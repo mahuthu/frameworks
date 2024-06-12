@@ -19,6 +19,7 @@ const CustomerReviews = () => {
         <div className="container-lg"> {/* Increased container size */}
           <div className="row text-center">
             <div className="col-12">
+              
               <div className="overlay-text">
                 <h2 style={{ color: "#fff", textAlign:"center" }}>We can help you to grow</h2>
                 <h1 style={{ color: "#fff" }}>Your Business</h1>
@@ -29,6 +30,7 @@ const CustomerReviews = () => {
                   <div className="number">100% Satisfaction</div>
                   <div className="number">120 Cups of Coffee</div>
                 </div>
+                
               </div>
             </div>
           </div>
