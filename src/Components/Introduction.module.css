@@ -1,49 +1,63 @@
-.containerfluid{
+.containerfluid {
     background-size: cover;
-    color: #32325C;
-    height: 41rem;
-    
-    
-}
-
-.containerfluid h1{
-
-    font-size: 4rem;
-}
-
-
-
-.containerfluid .button{
-        border-radius: 30px;
-        background: #32325C;
-        color: #41E096;
-        font-weight: bolder;
-        border-color: #32325c;
-        transition: background-color 0.3s, color 0.3s;
-        display: ruby-base-container;
-
-}
-
-.containerfluid .button:hover {
-    background-image: url("../Dataset/nairobi2.jpg"); /* Change background color on hover */
-    color: #32325C; /* Change text color on hover */
+    background-position: center;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-
-@media (max-width: 700px) {
-    .containerfluid h1,h2{
-       text-align: left;
-      
+  
+  .typist {
+    display: inline-block;
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #41e096;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .button {
+    border-radius: 30px;
+    background: #41e096;
+    color: #32325C;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    background-color: #32325C;
+    color: #41e096;
+  }
+  
+  @media (max-width: 700px) {
+    .title {
+      font-size: 2.5rem;
+      text-align: center;
     }
-
-    .containerfluid h1{
-        font-size: 2rem;
+  
+    .subtitle {
+      font-size: 1.2rem;
+      text-align: center;
     }
-    
-
-
-    .containerfluid .button{
-        margin:0 auto;
-        display: ruby-base-;
+  
+    .button {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin: 20px auto 0;
     }
-}
-
+  }
+  
