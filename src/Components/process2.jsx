@@ -42,16 +42,18 @@ const processSteps = [
 
 const Process1 = () => {
   const processDisplay = processSteps.map((step) => (
-    <div className={`col-md-6 ${styles.flipCard}`} key={step.id}>
-      <div className={styles.flipCardInner}>
-        <div className={`${styles.flipCardFront}`} style={{ backgroundColor: "#32325C", color: "#fff" }}>
-          <div className={styles.icon} style={{ fontSize: "3rem", marginBottom: "10px", color: "#42E096" }}>
-            {step.logo}
+    <div className={`col-md-6 col-lg-4 ${styles.flipCardContainer}`} key={step.id}>
+      <div className={styles.flipCard}>
+        <div className={styles.flipCardInner}>
+          <div className={`${styles.flipCardFront}`} style={{ backgroundColor: "#32325C", color: "#fff" }}>
+            <div className={styles.icon} style={{ fontSize: "3rem", marginBottom: "10px", color: "#42E096" }}>
+              {step.logo}
+            </div>
+            <h3 className={styles.cardTitle}>{step.title}</h3>
           </div>
-          <h3 className={styles.cardTitle}>{step.title}</h3>
-        </div>
-        <div className={`${styles.flipCardBack}`} style={{ backgroundColor: "#fff", color: "#000" }}>
-          <p className={styles.description}>{step.description}</p>
+          <div className={`${styles.flipCardBack}`} style={{ backgroundColor: "#fff", color: "#000" }}>
+            <p className={styles.description}>{step.description}</p>
+          </div>
         </div>
       </div>
     </div>

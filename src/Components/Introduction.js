@@ -2,25 +2,48 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Typist from 'react-typist';
 import classes from './Introduction.module.css';
-import backgroundImage from "../Dataset/nairobi2.jpg";
+import backgroundImage1 from "../Dataset/nairobi2.jpg";
+import backgroundImage2 from "../Dataset/business.jpg"; // Add another image
+
+const images = [backgroundImage1, backgroundImage2]; // Add more images if needed
 
 const Introduction = () => {
   const [isTypingComplete, setIsTypingComplete] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [nextImageIndex, setNextImageIndex] = useState(1);
+  const [isFading, setIsFading] = useState(false);
 
-  // Set isTypingComplete to true when typing animation is complete
   const handleTypingComplete = () => {
     setIsTypingComplete(true);
   };
 
-  // Use useEffect to trigger typing animation when component mounts
   useEffect(() => {
     setIsTypingComplete(false);
   }, []);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsFading(true);  // Start fading out
+
+      setTimeout(() => {
+        setCurrentImageIndex(nextImageIndex);
+        setNextImageIndex((nextImageIndex + 1) % images.length);
+        setIsFading(false);  // Start fading in
+      }, 1000);  // Duration of fade-out
+
+    }, 30000);  // Change image every 5 seconds
+
+    return () => clearInterval(interval);
+  }, [nextImageIndex]);
+
   return (
-    <div className={`container-fluid ${classes.containerfluid}`} style={{
-      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${backgroundImage})` 
-    }}>
+    <div className={`${classes.containerfluid}`}>
+      <div
+        className={`${classes.background} ${isFading ? classes.fadeOut : classes.fadeIn}`}
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${images[currentImageIndex]})`,
+        }}
+      />
       <div className="container">
         <div className="row align-items-center" style={{ height: '100vh' }}>
           <div className="col-12 text-start">

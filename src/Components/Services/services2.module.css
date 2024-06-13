@@ -62,3 +62,9 @@
   color: #333;
   margin: 10px 0;
 }
+@media screen and (max-width: 768px) {
+  .servicesHeading{
+    font-size: 1.6rem;
+  }
+  
+}
