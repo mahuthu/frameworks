@@ -51,7 +51,7 @@ const Crm = () => {
                   <li>Efficient Sales and Marketing: Streamline sales processes, automate marketing campaigns, and track performance metrics for better ROI.</li>
                   <li>Scalability and Growth: Scale your business, expand customer base, and drive business growth with scalable CRM solutions.</li>
               </ul>
-              <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+              <p style={{ backgroundColor: "#32a372", color: "#fff", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
                   Savannah Inc, we specializes in designing and implementing tailored CRM solutions to help you build lasting customer relationships and drive business success.
               </p>
           </>

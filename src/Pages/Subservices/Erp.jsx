@@ -42,7 +42,7 @@ const ERP = () => {
                     <li>Integrated Systems: Connect different business functions and departments, ensuring data consistency, collaboration, and seamless workflows.</li>
                     <li>Scalability: Adapt and scale your ERP system as your business grows, accommodating new processes, users, and functionalities.</li>
                 </ul>
-                <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+                <p style={{ backgroundColor: "#32a372", color: "#fff", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
                     Savannah Inc, specializes in ERP implementation, customization, and optimization tailored to your business goals. Let us help you harness the power of ERP to drive operational excellence and business growth.
                 </p>
             </>

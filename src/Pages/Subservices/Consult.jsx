@@ -44,7 +44,7 @@ const Training = () => {
                     <li>Business Integration: Seamless integration of AI solutions into existing business processes and workflows.</li>
                     <li>Workflow Optimization: Optimization of workflows and automation of tasks using AI for enhanced productivity.</li>
                 </ul>
-                <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+                <p style={{ backgroundColor: "#32a372", color: "#fff", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
                     At Savannah Inc, we offer comprehensive AI Training and Consultation services to empower your workforce and drive business growth through AI innovation. Let us help you unlock the full potential of AI for improved productivity and efficiency.
                 </p>
             </>

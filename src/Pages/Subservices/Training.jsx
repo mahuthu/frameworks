@@ -24,7 +24,7 @@ const Training = () => {
                 <li>Customized Workshops: Conduct tailored workshops and seminars to address specific business challenges and opportunities.</li>
                 <li>Implementation Support: Assist in the implementation and adoption of new technologies, ensuring smooth transitions and maximizing benefits.</li>
               </ul>
-              <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left"  }}>
+              <p style={{ backgroundColor: "#32a372", color: "#fff", padding: "20px", borderRadius: "5px", textAlign: "left"  }}>
                 We specialize in training your teams to effectively utilize CRM, ERP, SCM, and other systems to boost your business performance. Let us empower your workforce and drive success through technology and expertise.
               </p>
             </>

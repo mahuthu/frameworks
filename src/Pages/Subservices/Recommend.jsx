@@ -45,7 +45,7 @@ const ERP = () => {
                     <li>Behavioral Analysis: Analyze user behavior and interactions to enhance recommendation accuracy and relevance.</li>
                     <li>Feedback Integration: Integrate user feedback and preferences into recommendation models for continuous improvement.</li>
                 </ul>
-                <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+                <p style={{ backgroundColor: "#32a372", color: "#fff", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
                     At Savannah Inc, we build Recommendation Systems Solutions that boost user engagement and drive business growth. Let us help you deliver personalized experiences that keep users coming back.
                 </p>
             </>

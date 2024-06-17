@@ -10,7 +10,7 @@ const Business = () => {
         <div className="App">
     
             <Navbar />
-            <AboutUs1 mainHeading="Business Solution Services" subHeading="Home &raquo; Business Solution Services" />
+            <AboutUs1 mainHeading="Business Solution Services" subHeading="Home &raquo; Services" />
 
             <Services/>
             <Footer />

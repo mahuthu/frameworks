@@ -53,7 +53,7 @@ const Pms = () => {
                     <li>Resource Optimization: Allocate resources effectively, manage workloads, and optimize resource utilization for cost savings.</li>
                     <li>Project Tracking and Reporting: Monitor project progress, generate reports, and analyze performance metrics to make data-driven decisions.</li>
                 </ul>
-                <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+                <p style={{ backgroundColor: "#32a372", color: "#fff", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
                     Savannah Inc, specializes in designing and implementing customized Project Management Systems tailored to your project management needs. Let us help you streamline your project workflows and achieve project success.
                 </p>
             </>

@@ -45,7 +45,7 @@ const ERP = () => {
                     <li>Predictive Modeling: Forecast customer behavior, predict churn rates, and identify cross-selling opportunities using advanced analytics.</li>
                     <li>Customer Insights: Gain deep insights into customer needs, preferences, and sentiment to tailor marketing campaigns and improve customer experience.</li>
                 </ul>
-                <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+                <p style={{ backgroundColor: "#32a372", color: "#fff", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
                     At Savannah Inc, we offer Customer Analytics Solutions designed to enhance your customer understanding and drive strategic marketing decisions. Let us help you unlock valuable customer insights for business growth.
                 </p>
             </>

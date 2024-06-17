@@ -7,10 +7,9 @@ const Services = () => {
     const services = [
         { icon: <i className="fa-solid fa-code"></i>, title: " Website Design and Development", route: "/website" },
         { icon: <i className="fab fa-instagram"></i>, title: " Social Media Management", route: "/social" },
-
         { icon: <i className="fas fa-project-diagram"></i>, title: "Management Information Systems", route: "/business" },
         { icon: <i className="fa-solid fa-robot"></i>, title: "Chatbot Development", route: "/chatbot" },
-        { icon: <i className="fas fa-database"></i>, title: "Data collection and annotation", route: "/annotation" },
+        { icon: <i className="fas fa-database"></i>, title: "Data collection and annotation", route: "/collection" },
         { icon: <i className="fas fa-thumbs-up"></i>, title: "Recommendation Engines", route: "/recommend" },
         { icon: <i className="fas fa-chart-line"></i>, title: "Analytics", route: "/analytics" },
         { icon: <i className="fas fa-chalkboard-teacher"></i>, title: "Training and Consultation", route: "/consult" },

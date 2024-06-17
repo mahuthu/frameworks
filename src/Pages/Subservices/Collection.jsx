@@ -45,7 +45,7 @@ const ERP = () => {
                     <li>Data Labeling: Label data points for classification, object detection, sentiment analysis, and other AI tasks.</li>
                     <li>Data Quality Assurance: Ensure data quality through validation, cleaning, and normalization processes for reliable insights.</li>
                 </ul>
-                <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+                <p style={{ backgroundColor: "#32a372", color: "#fff", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
                     Savannah Inc offers end-to-end Data Collection and Annotation Solutions to support your AI and machine learning initiatives. Let us help you unlock the full potential of your data.
                 </p>
             </>

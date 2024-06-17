@@ -7,7 +7,7 @@ const ContactStrip = () => {
     <div className={styles.contactStrip}>
       <div className={styles.contactInfo}>
         <span>Get in touch:</span>
-        <span className={styles.phoneNumber}>0793-704-217</span>
+        <span className={styles.phoneNumber}>+254-793-704-217</span>
       </div>
       <div className={styles.socialIcons}>
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">

@@ -45,7 +45,7 @@ const ERP = () => {
                     <li>Data Integration: Integrate marketing data sources for comprehensive insights and holistic view of marketing performance.</li>
                     <li>Performance Metrics: Track key performance indicators (KPIs), measure campaign effectiveness, and optimize marketing strategies.</li>
                 </ul>
-                <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+                <p style={{ backgroundColor: "#32a372", color: "#fff", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
                     Savannah Inc delivers Marketing Analytics Solutions tailored to your business needs. Let us help you unlock actionable insights and drive marketing success.
                 </p>
             </>

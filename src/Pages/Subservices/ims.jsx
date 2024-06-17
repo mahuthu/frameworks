@@ -52,7 +52,7 @@ const Ims = () => {
               <li>Enhanced Customer Service: Ensure product availability, fulfill orders promptly, and meet customer demand with accurate inventory management.</li>
               <li>Scalability: Scale your inventory management system as your business grows, accommodating new products, locations, and sales channels.</li>
           </ul>
-          <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+          <p style={{ backgroundColor: "#32a372", color: "#fff", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
               At Savannah Inc, we specialize in designing and implementing customized Inventory Management Systems tailored to your business requirements. Let us help you streamline your inventory processes and achieve operational excellence.
           </p>
       </>

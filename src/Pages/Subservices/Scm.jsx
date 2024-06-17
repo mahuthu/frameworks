@@ -51,7 +51,7 @@ const Model = () => {
                     <li>Customer Satisfaction: Ensure on-time deliveries, reduce order errors, and enhance overall customer satisfaction through streamlined supply chain processes.</li>
                     <li>Cost Savings: Identify cost-saving opportunities, optimize supply chain networks, and negotiate better terms with suppliers for cost reduction.</li>
                 </ul>
-                <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+                <p style={{ backgroundColor: "#32a372", color: "#fff", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
                     Savannah Inc specializes in designing and implementing tailored SCM solutions to optimize your supply chain operations. Let us help you achieve supply chain excellence and drive business growth.
                 </p>
             </>

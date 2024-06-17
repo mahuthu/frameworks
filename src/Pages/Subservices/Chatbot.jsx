@@ -45,7 +45,7 @@ const ERP = () => {
                     <li>Integration: Integrate chatbots seamlessly with your existing systems and platforms for unified communication.</li>
                     <li>AI-Powered Solutions: Implement AI and machine learning capabilities for intelligent chatbot responses and decision-making.</li>
                 </ul>
-                <p style={{ backgroundColor: "#41E096", color: "#32325C", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
+                <p style={{ backgroundColor: "#32a372", color: "#fff", padding: "20px", borderRadius: "5px", textAlign: "left", marginTop: "50px" }}>
                     Savannah Inc, specializes in Chatbot Development Solutions that enhance customer interactions and drive business growth. Let us create conversational experiences that delight your customers.
                 </p>
             </>
