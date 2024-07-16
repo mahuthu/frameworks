@@ -5,7 +5,7 @@ import "../../Components/Styles.module.css";
 import SubService from "../../Components/SubService";
 import AboutUs1 from "../../Components/Aboutus/Aboutus6";
 import React from "react";
-import erpImage from "../../Dataset/chatbot.jpeg"
+import erpImage from "../../Dataset/infobip.png";
 
 
 const ERP = () => {

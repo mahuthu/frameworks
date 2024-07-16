@@ -10,7 +10,7 @@ const Chatbot = () => {
         <div className="App">
     
             <Navbar />
-            <AboutUs1 mainHeading="Chatbot Development" subHeading="Home &raquo; Chatbot Development" />
+            <AboutUs1 mainHeading="Chatbot Development" subHeading="Home &raquo; Services" />
 
             <Process1/>
             <Footer />

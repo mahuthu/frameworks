@@ -8,6 +8,12 @@
   color: #fff;
 }
 
+.servicesOverlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  border-radius: 15px;
+}
+
 .overlay-text h1,
 .overlay-text h2,
 .overlay-text h3 {

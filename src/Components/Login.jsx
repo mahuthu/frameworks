@@ -1,7 +1,31 @@
-import React from "react";
-import backgroundImage from "../Dataset/nairobi2.jpg"
+import React, { useState } from 'react';
+import axios from 'axios';
+import backgroundImage from '../Dataset/nairobi2.jpg';
 
 const Login = () => {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleLogin = async (event) => {
+    event.preventDefault();
+    try {
+      const response = await axios.post('http://localhost:8000/api/token/', {
+        username,
+        password
+      });
+      localStorage.setItem('token', response.data.access);
+      alert('Login successful');
+      
+      // Redirect to Django admin dashboard
+      window.location.href = 'http://localhost:8000/admin/';
+
+    } catch (error) {
+      console.error('Login error:', error);
+
+      alert('Login failed');
+    }
+  };
+
   const containerStyle = {
     display: "flex",
     justifyContent: "center",
@@ -60,14 +84,25 @@ const Login = () => {
     <div style={containerStyle}>
       <div style={wrapperStyle}>
         <h2 style={titleStyle}>SIGN IN</h2>
-        <form style={formStyle}>
-          <input type="text" placeholder="username" style={inputStyle} />
-          <input type="password" placeholder="password" style={inputStyle} />
+        <form style={formStyle} onSubmit={handleLogin}>
+          <input
+            type="text"
+            placeholder="username"
+            style={inputStyle}
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
+          <input
+            type="password"
+            placeholder="password"
+            style={inputStyle}
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
           <button type="submit" style={buttonStyle}>LOGIN</button>
           <p style={{ marginBottom: "10px" }}>
             <span style={linkStyle}>DO YOU REMEMBER YOUR PASSWORD?</span>
           </p>
-          
         </form>
       </div>
     </div>

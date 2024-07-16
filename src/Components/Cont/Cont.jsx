@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 import classes from "./Cont.module.css";
 import { MapPinned, PhoneCall, MailOpen } from "lucide-react";
 import backgroundImage from "../../Dataset/nairobi2.jpg";
@@ -14,15 +15,21 @@ const Cont = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Submit form data here. Send it to a backend API
-    console.log(formData);
-    setFormData({
-      name: "",
-      email: "",
-      comment: "",
-    });
+    try {
+      const response = await axios.post('http://localhost:8000/api/feedback/', formData);
+      console.log(response.data);
+      alert('Feedback submitted successfully');
+      setFormData({
+        name: "",
+        email: "",
+        comment: "",
+      });
+    } catch (error) {
+      console.error('There was an error submitting the feedback:', error);
+      alert('Error submitting feedback');
+    }
   };
 
   return (
@@ -39,7 +46,7 @@ const Cont = () => {
         </div>
         <hr className={classes.contactDivider} />
         <div className={classes.contactSection1}>
-          <MapPinned size = {50}/>
+          <MapPinned size={50}/>
           <p className={classes.contactInfo}> Kahawa Sukari, Nairobi</p>
         </div>
       </div>
