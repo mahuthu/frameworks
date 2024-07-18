@@ -38,7 +38,7 @@ const BlogPage = () => {
             key={blog.id}
             id={blog.id}
 
-            image={`http://localhost:8000${blog.image}`}
+            image={blog.image}
           
 
             title={blog.title}
